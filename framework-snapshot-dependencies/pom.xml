@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>centit-framework-dependencies</artifactId>
+        <groupId>com.centit.framework</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>framework-snapshot-dependencies</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>Framework Snapshot Dependencies</name>
+    <description>
+        基于框架开发的版本管理，snapshot版
+    </description>
+
+    <properties>
+        <centit.framework.version>4.1-SNAPSHOT</centit.framework.version>
+        <centit.persistence.version>1.1-SNAPSHOT</centit.persistence.version>
+        <centit.commons.version>2.2-SNAPSHOT</centit.commons.version>
+        <centit.ip.version>1.1-SNAPSHOT</centit.ip.version>
+        <centit.ui.version>3.1-SNAPSHOT</centit.ui.version>
+        <centit.msgpusher.version>0.1-SNAPSHOT</centit.msgpusher.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+
+            <dependency>
+                <groupId>com.centit.support</groupId>
+                <artifactId>centit-utils</artifactId>
+                <version>${centit.commons.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.support</groupId>
+                <artifactId>centit-compiler</artifactId>
+                <version>${centit.commons.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.support</groupId>
+                <artifactId>centit-database</artifactId>
+                <version>${centit.commons.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.support</groupId>
+                <artifactId>centit-database-datasource</artifactId>
+                <version>${centit.commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.centit.support</groupId>
+                <artifactId>centit-office</artifactId>
+                <version>${centit.commons.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>centit-persistence-core</artifactId>
+                <version>${centit.persistence.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>centit-persistence-config</artifactId>
+                <version>${centit.persistence.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>centit-persistence-mybatis</artifactId>
+                <version>${centit.persistence.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>centit-persistence-mybatis-config</artifactId>
+                <version>${centit.persistence.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>centit-persistence-hibernate</artifactId>
+                <version>${centit.persistence.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>centit-persistence-hibernate-config</artifactId>
+                <version>${centit.persistence.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>centit-persistence-jdbc</artifactId>
+                <version>${centit.persistence.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>centit-persistence-jdbc-config</artifactId>
+                <version>${centit.persistence.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>framework-adapter</artifactId>
+                <version>${version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>framework-core</artifactId>
+                <version>${centit.framework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>framework-filter</artifactId>
+                <version>${centit.framework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>framework-security</artifactId>
+                <version>${centit.framework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>framework-config</artifactId>
+                <version>${centit.framework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>framework-core-web</artifactId>
+                <version>${centit.framework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>framework-system-static</artifactId>
+                <version>${centit.framework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>framework-system-static-jdbc</artifactId>
+                <version>${centit.framework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>framework-system-static-config</artifactId>
+                <version>${centit.framework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>framework-persistence-core</artifactId>
+                <version>${centit.framework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>framework-persistence-hibernate</artifactId>
+                <version>${centit.framework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>framework-persistence-mybatis</artifactId>
+                <version>${centit.framework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>framework-persistence-jdbc</artifactId>
+                <version>${centit.framework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>framework-system-module</artifactId>
+                <version>${centit.framework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>framework-system-web</artifactId>
+                <version>${centit.framework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>framework-system-config</artifactId>
+                <version>${centit.framework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>centit-ip-adapter</artifactId>
+                <version>${centit.ip.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>centit-ip-adapter-jdbc</artifactId>
+                <version>${centit.ip.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>centit-ip-module</artifactId>
+                <version>${centit.ip.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>centit-ip-app</artifactId>
+                <version>${centit.ip.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>centit-ip-app-config</artifactId>
+                <version>${centit.ip.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>framework-base-view-easyui</artifactId>
+                <version>${centit.ui.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>framework-system-view-easyui</artifactId>
+                <version>${centit.ui.version}</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>com.centit.product</groupId>
+                <artifactId>msgpusher-utils</artifactId>
+                <version>${centit.msgpusher.version}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+</project>
