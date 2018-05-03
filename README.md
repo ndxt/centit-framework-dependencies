@@ -2,7 +2,7 @@
 
 ## 第三方包管理
 
-模块 centit-framework-dependencies 管理框架所有依赖的第三方包，使用方式如下：
+模块 centit-framework-dependencies 管理框架所有依赖的第三方包。**这个一般是给框架开发使用的**,使用方式如下：
 
 ```xml
     <parent>
@@ -14,7 +14,7 @@
 
 ## 框架包管理
 
-框架包分两个，一个是release版本的框架包，使用方式如下：
+框架包分两个，一个是release版本的一个是snapshot版本的；**这个一般是给业务系统和服务模块使用的**。release版本的使用方式如下：
 
 ```xml
     <parent>
