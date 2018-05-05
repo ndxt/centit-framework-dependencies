@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>framework-release-dependencies</artifactId>
-    <version>1.0.1805</version>
+    <version>1.0</version>
     <packaging>pom</packaging>
 
     <name>Framework Release Dependencies</name>
@@ -110,7 +110,7 @@
             <dependency>
                 <groupId>com.centit.framework</groupId>
                 <artifactId>framework-adapter</artifactId>
-                <version>${version}</version>
+                <version>${centit.framework.version}</version>
             </dependency>
 
             <dependency>
