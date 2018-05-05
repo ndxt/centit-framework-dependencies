@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>framework-release-dependencies</artifactId>
-    <version>1.1.1805</version>
+    <version>1.0.1805</version>
     <packaging>pom</packaging>
 
     <name>Framework Release Dependencies</name>
@@ -20,7 +20,7 @@
 
     <properties>
         <centit.framework.version>4.1.1805</centit.framework.version>
-        <centit.persistence.version>1.1.1085</centit.persistence.version>
+        <centit.persistence.version>1.1.1805</centit.persistence.version>
         <centit.commons.version>2.2.1805</centit.commons.version>
         <centit.ip.version>1.1.1805</centit.ip.version>
         <centit.ui.version>3.1.0</centit.ui.version>
