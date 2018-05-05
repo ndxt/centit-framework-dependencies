@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>framework-snapshot-dependencies</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1.1805</version>
     <packaging>pom</packaging>
 
     <name>Framework Snapshot Dependencies</name>
