@@ -5,12 +5,12 @@
     <parent>
         <artifactId>centit-framework-dependencies</artifactId>
         <groupId>com.centit.framework</groupId>
-        <version>1.1.1805</version>
+        <version>1.1.1806</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>framework-release-dependencies</artifactId>
-    <version>1.0</version>
+    <version>1.1.1806</version>
     <packaging>pom</packaging>
 
     <name>Framework Release Dependencies</name>
@@ -19,13 +19,11 @@
     </description>
 
     <properties>
-        <centit.framework.version>4.1.1805</centit.framework.version>
-        <centit.persistence.version>1.1.1805</centit.persistence.version>
-        <centit.commons.version>2.2.1805</centit.commons.version>
-        <centit.ip.version>1.1.1805</centit.ip.version>
+        <centit.framework.version>4.1.1806</centit.framework.version>
+        <centit.persistence.version>1.1.1806</centit.persistence.version>
+        <centit.commons.version>2.2.1806</centit.commons.version>
+        <centit.ip.version>1.1.1806</centit.ip.version>
         <centit.ui.version>3.1.0</centit.ui.version>
-        <centit.msgpusher.version>0.1.1805</centit.msgpusher.version>
-        <centit.stat.version>2.1.1805</centit.stat.version>
     </properties>
 
     <dependencyManagement>
@@ -245,12 +243,6 @@
                 <version>${centit.framework.version}</version>
             </dependency>
 
-            <dependency>
-                <groupId>com.centit.product</groupId>
-                <artifactId>msgpusher-utils</artifactId>
-                <version>${centit.msgpusher.version}</version>
-            </dependency>
-
         </dependencies>
     </dependencyManagement>
     <build>
@@ -271,7 +263,7 @@
                 </executions>
             </plugin>
 
-            <plugin>
+<!--            <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
                 <inherited>false</inherited>
@@ -282,7 +274,7 @@
                     <nexusUrl>https://oss.sonatype.org/</nexusUrl>
                     <autoReleaseAfterClose>true</autoReleaseAfterClose>
                 </configuration>
-            </plugin>
+            </plugin>-->
         </plugins>
     </build>
 </project>
