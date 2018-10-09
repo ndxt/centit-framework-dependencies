@@ -678,7 +678,7 @@
             </plugins>
         </pluginManagement>
 
-        <plugins>
+        <!--<plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
@@ -707,6 +707,6 @@
                     <autoReleaseAfterClose>true</autoReleaseAfterClose>
                 </configuration>
             </plugin>
-        </plugins>
+        </plugins>-->
     </build>
 </project>
