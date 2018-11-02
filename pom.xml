@@ -6,7 +6,7 @@
 
     <groupId>com.centit.framework</groupId>
     <artifactId>centit-framework-dependencies</artifactId>
-    <version>1.1.1809</version>
+    <version>1.1.1810</version>
     <packaging>pom</packaging>
     <name>Centit Framework Dependencies</name>
     <description>Centit Framework Dependencies</description>
@@ -68,6 +68,7 @@
 
         <slf4j.version>1.7.25</slf4j.version>
         <fastjson.version>1.2.46</fastjson.version>
+        <fasterxml.jackson.version>2.9.7</fasterxml.jackson.version>
         <httpcomponents.version>4.5.5</httpcomponents.version>
 
         <pinyin4j.version>2.5.1</pinyin4j.version>
@@ -96,7 +97,10 @@
         <xdocreport.version>2.0.1</xdocreport.version>
         <javafaker.version>0.14</javafaker.version>
         <junit.version>4.12</junit.version>
+        <swagger-annotations.version>1.5.20</swagger-annotations.version>
+        <swagger2.version>2.9.2</swagger2.version>
     </properties>
+
     <dependencyManagement>
         <dependencies>
             <!--spring framework-->
@@ -592,6 +596,36 @@
                 <scope>provided</scope>
             </dependency>
 
+            <dependency>
+                <groupId>io.swagger</groupId>
+                <artifactId>swagger-annotations</artifactId>
+                <version>${swagger-annotations.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${swagger2.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>${swagger2.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-core</artifactId>
+                <version>${fasterxml.jackson.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${fasterxml.jackson.version}</version>
+            </dependency>
+
             <!-- test library -->
             <dependency>
                 <groupId>com.github.javafaker</groupId>
@@ -678,7 +712,7 @@
             </plugins>
         </pluginManagement>
 
-        <!--<plugins>
+        <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
@@ -707,6 +741,6 @@
                     <autoReleaseAfterClose>true</autoReleaseAfterClose>
                 </configuration>
             </plugin>
-        </plugins>-->
+        </plugins>
     </build>
 </project>
