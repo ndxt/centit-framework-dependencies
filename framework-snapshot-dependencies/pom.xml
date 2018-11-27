@@ -5,7 +5,7 @@
     <parent>
         <artifactId>centit-framework-dependencies</artifactId>
         <groupId>com.centit.framework</groupId>
-        <version>1.1.1810</version>
+        <version>1.1.1811</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -265,7 +265,7 @@
                 </executions>
             </plugin>
 
-            <plugin>
+           <!-- <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
                 <inherited>false</inherited>
@@ -276,7 +276,7 @@
                     <nexusUrl>https://oss.sonatype.org/</nexusUrl>
                     <autoReleaseAfterClose>true</autoReleaseAfterClose>
                 </configuration>
-            </plugin>
+            </plugin>-->
         </plugins>
     </build>
 </project>
