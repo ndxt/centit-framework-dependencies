@@ -98,7 +98,7 @@
         <javafaker.version>0.16</javafaker.version>
         <junit.version>4.12</junit.version>
 
-        <swagger-annotations.version>1.5.20</swagger-annotations.version>
+        <swagger-annotations.version>1.5.21</swagger-annotations.version>
         <swagger2.version>2.9.2</swagger2.version>
         <swagger.bootstrap.ui.version>1.8.2</swagger.bootstrap.ui.version>
     </properties>

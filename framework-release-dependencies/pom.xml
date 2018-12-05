@@ -124,6 +124,12 @@
 
             <dependency>
                 <groupId>com.centit.framework</groupId>
+                <artifactId>framework-session</artifactId>
+                <version>${centit.framework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
                 <artifactId>framework-security</artifactId>
                 <version>${centit.framework.version}</version>
             </dependency>

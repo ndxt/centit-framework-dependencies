@@ -19,7 +19,7 @@
     </description>
 
     <properties>
-        <centit.framework.version>4.3-SNAPSHOT</centit.framework.version>
+        <centit.framework.version>4.4-SNAPSHOT</centit.framework.version>
         <centit.persistence.version>1.1-SNAPSHOT</centit.persistence.version>
         <centit.commons.version>2.2-SNAPSHOT</centit.commons.version>
         <centit.ip.version>1.2-SNAPSHOT</centit.ip.version>
@@ -121,6 +121,12 @@
             <dependency>
                 <groupId>com.centit.framework</groupId>
                 <artifactId>framework-filter</artifactId>
+                <version>${centit.framework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>framework-session</artifactId>
                 <version>${centit.framework.version}</version>
             </dependency>
 
