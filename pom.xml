@@ -6,7 +6,7 @@
 
     <groupId>com.centit.framework</groupId>
     <artifactId>centit-framework-dependencies</artifactId>
-    <version>1.1.1811</version>
+    <version>1.1.1812</version>
     <packaging>pom</packaging>
     <name>Centit Framework Dependencies</name>
     <description>Centit Framework Dependencies</description>
@@ -56,6 +56,8 @@
 
         <h2.version>1.4.196</h2.version>
         <redis.version>2.9.0</redis.version>
+        <lettuce.version>3.5.0.Final</lettuce.version>
+
         <ojdbc6.version>11.2.0.4</ojdbc6.version>
         <mysql.version>5.1.9</mysql.version>
         <c3p0.version>0.9.1.2</c3p0.version>
@@ -98,8 +100,8 @@
         <javafaker.version>0.16</javafaker.version>
         <junit.version>4.12</junit.version>
 
-        <swagger-annotations.version>1.5.21</swagger-annotations.version>
-        <swagger2.version>2.9.2</swagger2.version>
+        <swagger.core.version>1.5.21</swagger.core.version>
+        <springfox.swagger.version>2.9.2</springfox.swagger.version>
         <swagger.bootstrap.ui.version>1.8.2</swagger.bootstrap.ui.version>
     </properties>
 
@@ -365,12 +367,12 @@
                 <artifactId>flyway-core</artifactId>
                 <version>${flyway.version}</version>
             </dependency>
-            <!--引入h2嵌入式数据库来管理session的持久化问题-->
-            <!--<dependency>
+            <!--引入jedis数据库来管理session的持久化问题-->
+            <dependency>
                 <groupId>biz.paluch.redis</groupId>
                 <artifactId>lettuce</artifactId>
-                <version>4.4.5.Final</version>
-            </dependency>-->
+                <version>${lettuce.version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>redis.clients</groupId>
@@ -601,20 +603,27 @@
             <dependency>
                 <groupId>io.swagger</groupId>
                 <artifactId>swagger-annotations</artifactId>
-                <version>${swagger-annotations.version}</version>
+                <version>${swagger.core.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>io.springfox</groupId>
                 <artifactId>springfox-swagger2</artifactId>
-                <version>${swagger2.version}</version>
+                <version>${springfox.swagger.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>io.springfox</groupId>
                 <artifactId>springfox-swagger-ui</artifactId>
-                <version>${swagger2.version}</version>
+                <version>${springfox.swagger.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>io.swagger</groupId>
+                <artifactId>swagger-models</artifactId>
+                <version>${swagger.core.version}</version>
+            </dependency>
+
 
             <dependency>
                 <groupId>com.github.xiaoymin</groupId>
