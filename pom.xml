@@ -60,6 +60,7 @@
 
         <ojdbc6.version>11.2.0.4</ojdbc6.version>
         <mysql.version>5.1.9</mysql.version>
+        <postgresql.version>42.2.5</postgresql.version>
         <c3p0.version>0.9.1.2</c3p0.version>
         <proxool.version>0.9.1</proxool.version>
 
@@ -397,6 +398,13 @@
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql.version}</version>
+                <scope>runtime</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.postgresql</groupId>
+                <artifactId>postgresql</artifactId>
+                <version>${postgresql.version}</version>
                 <scope>runtime</scope>
             </dependency>
 
