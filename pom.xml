@@ -89,6 +89,7 @@
         <commons-io.version>2.6</commons-io.version>
         <commons-codec.version>1.11</commons-codec.version>
         <commons-collections4.version>4.2</commons-collections4.version>
+        <commons-csv.version>1.6</commons-csv.version>
 
         <javax.validation.version>2.0.0.Final</javax.validation.version>
         <javassist.version>3.21.0-GA</javassist.version>
@@ -502,6 +503,12 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-collections4</artifactId>
                 <version>${commons-collections4.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-csv</artifactId>
+                <version>${commons-csv.version}</version>
             </dependency>
 
             <dependency>
