@@ -6,7 +6,7 @@
 
     <groupId>com.centit.framework</groupId>
     <artifactId>centit-framework-dependencies</artifactId>
-    <version>1.1.1812</version>
+    <version>1.2.1901</version>
     <packaging>pom</packaging>
     <name>Centit Framework Dependencies</name>
     <description>Centit Framework Dependencies</description>
@@ -40,10 +40,13 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jdk.version>1.8</jdk.version>
-        <spring.version>4.3.20.RELEASE</spring.version>
-        <spring.security.version>4.2.9.RELEASE</spring.security.version>
-        <spring-security-oauth2.version>2.3.4.RELEASE</spring-security-oauth2.version>
-        <spring.session.version>1.3.4.RELEASE</spring.session.version>
+        <spring.version>5.1.5.RELEASE</spring.version>
+        <spring.security.version>5.1.4.RELEASE</spring.security.version>
+        <spring-security-oauth2.version>2.3.5.RELEASE</spring-security-oauth2.version>
+        <spring-security-jwt.version>1.0.9.RELEASE</spring-security-jwt.version>
+        <spring-security-rsa.version>1.0.7.RELEASE</spring-security-rsa.version>
+        <spring.session.version>2.1.4.RELEASE</spring.session.version>
+        <spring.data.version>2.1.5.RELEASE</spring.data.version>
         <cas.client.version>3.5.1</cas.client.version>
         <ehcache.version>2.10.6</ehcache.version>
 
@@ -105,6 +108,7 @@
         <swagger.core.version>1.5.21</swagger.core.version>
         <springfox.swagger.version>2.9.2</springfox.swagger.version>
         <swagger.bootstrap.ui.version>1.8.2</swagger.bootstrap.ui.version>
+        <guava.version>23.0</guava.version>
     </properties>
 
     <dependencyManagement>
@@ -667,6 +671,12 @@
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-databind</artifactId>
                 <version>${fasterxml.jackson.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava.version}</version>
             </dependency>
 
             <!-- test library -->
