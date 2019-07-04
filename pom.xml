@@ -61,6 +61,7 @@
         <redis.version>2.9.0</redis.version>
         <lettuce.version>3.5.0.Final</lettuce.version>
 
+        <ucanaccess.version>4.0.4</ucanaccess.version>
         <ojdbc6.version>11.2.0.4</ojdbc6.version>
         <mysql.version>5.1.9</mysql.version>
         <postgresql.version>42.2.5</postgresql.version>
@@ -384,6 +385,12 @@
                 <groupId>redis.clients</groupId>
                 <artifactId>jedis</artifactId>
                 <version>${redis.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>net.sf.ucanaccess</groupId>
+                <artifactId>ucanaccess</artifactId>
+                <version>${ucanaccess.version}</version>
             </dependency>
 
             <dependency>
