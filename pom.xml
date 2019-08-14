@@ -60,6 +60,7 @@
         <h2.version>1.4.196</h2.version>
         <redis.version>2.9.0</redis.version>
         <lettuce.version>3.5.0.Final</lettuce.version>
+        <netty.version>4.1.37.Final</netty.version>
 
         <ucanaccess.version>4.0.4</ucanaccess.version>
         <ojdbc6.version>11.2.0.4</ojdbc6.version>
@@ -111,10 +112,17 @@
         <swagger.bootstrap.ui.version>1.8.2</swagger.bootstrap.ui.version>
         <guava.version>23.0</guava.version>
         <lombok.version>1.18.2</lombok.version>
+        <checkerframework.version>2.10.0</checkerframework.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.checkerframework</groupId>
+                <artifactId>checker-qual</artifactId>
+                <version>${checkerframework.version}</version>
+            </dependency>
+
             <!--spring framework-->
             <dependency>
                 <groupId>org.springframework</groupId>
