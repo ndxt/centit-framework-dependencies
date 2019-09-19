@@ -50,6 +50,13 @@
                 <artifactId>centit-database-datasource</artifactId>
                 <version>${centit.commons.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>com.centit.support</groupId>
+                <artifactId>centit-database-transaction</artifactId>
+                <version>${centit.commons.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>com.centit.support</groupId>
                 <artifactId>centit-office</artifactId>
@@ -65,6 +72,18 @@
             <dependency>
                 <groupId>com.centit.framework</groupId>
                 <artifactId>centit-persistence-extend</artifactId>
+                <version>${centit.persistence.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>centit-persistence-dynamic-datasource</artifactId>
+                <version>${centit.persistence.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>centit-persistence-flyway-plugin</artifactId>
                 <version>${centit.persistence.version}</version>
             </dependency>
 
