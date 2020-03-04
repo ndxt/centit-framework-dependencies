@@ -251,6 +251,12 @@
 
             <dependency>
                 <groupId>com.centit.framework</groupId>
+                <artifactId>centit-ip-server</artifactId>
+                <version>${centit.ip.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
                 <artifactId>centit-ip-app</artifactId>
                 <version>${centit.ip.version}</version>
             </dependency>
@@ -258,6 +264,12 @@
             <dependency>
                 <groupId>com.centit.framework</groupId>
                 <artifactId>centit-ip-app-config</artifactId>
+                <version>${centit.ip.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>centit-ip-with-app</artifactId>
                 <version>${centit.ip.version}</version>
             </dependency>
 
