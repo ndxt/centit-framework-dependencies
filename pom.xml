@@ -6,7 +6,7 @@
 
     <groupId>com.centit.framework</groupId>
     <artifactId>centit-framework-dependencies</artifactId>
-    <version>1.2.1901</version>
+    <version>1.2.2007</version>
     <packaging>pom</packaging>
     <name>Centit Framework Dependencies</name>
     <description>Centit Framework Dependencies</description>
@@ -64,6 +64,7 @@
 
         <ucanaccess.version>4.0.4</ucanaccess.version>
         <ojdbc6.version>11.2.0.4</ojdbc6.version>
+        <oracle-jdbc.version>11.2.0.3.0</oracle-jdbc.version>
         <mysql.version>5.1.9</mysql.version>
         <postgresql.version>42.2.5</postgresql.version>
         <c3p0.version>0.9.1.2</c3p0.version>
@@ -75,7 +76,7 @@
         <log4j.version>2.11.1</log4j.version>
         <slf4j.version>1.7.25</slf4j.version>
 
-        <fastjson.version>1.2.70</fastjson.version>
+        <fastjson.version>1.2.72</fastjson.version>
         <fasterxml.jackson.version>2.9.9</fasterxml.jackson.version>
         <httpcomponents.version>4.5.6</httpcomponents.version>
 
@@ -412,6 +413,13 @@
                 <groupId>com.oracle</groupId>
                 <artifactId>ojdbc6</artifactId>
                 <version>${ojdbc6.version}</version>
+                <scope>runtime</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>oracle</groupId>
+                <artifactId>oracle-jdbc</artifactId>
+                <version>${oracle-jdbc.version}</version>
                 <scope>runtime</scope>
             </dependency>
 
@@ -874,7 +882,7 @@
                 </executions>
             </plugin>
 
-            <!--<plugin>
+            <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
                 <inherited>false</inherited>
@@ -885,7 +893,7 @@
                     <nexusUrl>https://oss.sonatype.org/</nexusUrl>
                     <autoReleaseAfterClose>true</autoReleaseAfterClose>
                 </configuration>
-            </plugin>-->
+            </plugin>
         </plugins>
     </build>
 </project>
