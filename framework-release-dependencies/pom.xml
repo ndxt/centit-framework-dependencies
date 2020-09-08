@@ -143,7 +143,13 @@
 
             <dependency>
                 <groupId>com.centit.framework</groupId>
-                <artifactId>framework-session</artifactId>
+                <artifactId>framework-session-redis</artifactId>
+                <version>${centit.framework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
+                <artifactId>framework-session-jdbc</artifactId>
                 <version>${centit.framework.version}</version>
             </dependency>
 
