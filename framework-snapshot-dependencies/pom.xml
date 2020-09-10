@@ -145,6 +145,12 @@
 
             <dependency>
                 <groupId>com.centit.framework</groupId>
+                <artifactId>framework-session-core</artifactId>
+                <version>${centit.framework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.framework</groupId>
                 <artifactId>framework-session-redis</artifactId>
                 <version>${centit.framework.version}</version>
             </dependency>
