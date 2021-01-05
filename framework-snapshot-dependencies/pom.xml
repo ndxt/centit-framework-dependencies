@@ -235,24 +235,6 @@
 
             <dependency>
                 <groupId>com.centit.framework</groupId>
-                <artifactId>centit-ip-adapter</artifactId>
-                <version>${centit.ip.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.centit.framework</groupId>
-                <artifactId>centit-ip-adapter-jdbc</artifactId>
-                <version>${centit.ip.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.centit.framework</groupId>
-                <artifactId>centit-ip-module</artifactId>
-                <version>${centit.ip.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.centit.framework</groupId>
                 <artifactId>centit-ip-server</artifactId>
                 <version>${centit.ip.version}</version>
             </dependency>
@@ -260,12 +242,6 @@
             <dependency>
                 <groupId>com.centit.framework</groupId>
                 <artifactId>centit-ip-app</artifactId>
-                <version>${centit.ip.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.centit.framework</groupId>
-                <artifactId>centit-ip-with-app</artifactId>
                 <version>${centit.ip.version}</version>
             </dependency>
 
