@@ -24,7 +24,10 @@
         <centit.commons.version>2.3-SNAPSHOT</centit.commons.version>
         <centit.ip.version>5.0-SNAPSHOT</centit.ip.version>
         <centit.ui.version>3.1-SNAPSHOT</centit.ui.version>
-        <centit.commons.modules.version>1.1-SNAPSHOT</centit.commons.modules.version>
+        <centit.commons.modules.version>1.2-SNAPSHOT</centit.commons.modules.version>
+        <centit.oa.modules.version>1.2-SNAPSHOT</centit.oa.modules.version>
+        <centit.log.modules.version>1.2-SNAPSHOT</centit.log.modules.version>
+
     </properties>
 
     <dependencyManagement>
@@ -257,6 +260,13 @@
                 <version>${centit.ui.version}</version>
             </dependency>
 
+
+            <dependency>
+                <groupId>com.centit.support</groupId>
+                <artifactId>centit-quartz-extend</artifactId>
+                <version>${centit.commons.modules.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>com.centit.support</groupId>
                 <artifactId>centit-office-utils</artifactId>
@@ -272,19 +282,19 @@
             <dependency>
                 <groupId>com.centit.support</groupId>
                 <artifactId>optflow-serial-number</artifactId>
-                <version>${centit.commons.modules.version}</version>
+                <version>${centit.oa.modules.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.centit.support</groupId>
                 <artifactId>enterprise-calendar</artifactId>
-                <version>${centit.commons.modules.version}</version>
+                <version>${centit.oa.modules.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>com.centit.support</groupId>
-                <artifactId>centit-quartz-extend</artifactId>
-                <version>${centit.commons.modules.version}</version>
+                <groupId>com.centit.product</groupId>
+                <artifactId>opt-log-module</artifactId>
+                <version>${centit.log.modules.version}</version>
             </dependency>
 
         </dependencies>
