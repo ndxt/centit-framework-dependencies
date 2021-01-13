@@ -756,21 +756,21 @@
     </dependencyManagement>
 
     <distributionManagement>
-        <repository>
+       <!-- <repository>
             <id>ossrh</id>
             <name>sonatype-releases</name>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
-        </repository>
+        </repository>-->
         <!--<snapshotRepository>
             <id>ossrh</id>
             <name>sonatype-snapshots</name>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>-->
-        <!--<repository>
+        <repository>
             <id>centit-releases</id>
             <name>centit-release</name>
             <url>http://nexus.centit.com:8081/nexus/content/repositories/centit-releases/</url>
-        </repository>-->
+        </repository>
         <snapshotRepository>
             <id>centit-snapshots</id>
             <name>centit-snapshots</name>
@@ -881,7 +881,7 @@
         </pluginManagement>
 
         <plugins>
-            <plugin>
+            <!--<plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
                 <inherited>false</inherited>
@@ -895,9 +895,9 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin>-->
 
-            <plugin>
+            <!--<plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
                 <inherited>false</inherited>
@@ -908,7 +908,7 @@
                     <nexusUrl>https://oss.sonatype.org/</nexusUrl>
                     <autoReleaseAfterClose>true</autoReleaseAfterClose>
                 </configuration>
-            </plugin>
+            </plugin>-->
         </plugins>
     </build>
 </project>
