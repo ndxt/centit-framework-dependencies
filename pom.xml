@@ -116,6 +116,8 @@
         <guava.version>28.2-jre</guava.version>
         <lombok.version>1.18.2</lombok.version>
         <checkerframework.version>2.10.0</checkerframework.version>
+
+        <elasticsearch.version>7.0.1</elasticsearch.version>
     </properties>
 
     <dependencyManagement>
@@ -744,25 +746,31 @@
                 <version>${lombok.version}</version>
                 <scope>provided</scope>
             </dependency>
+
+            <dependency>
+                <groupId>org.elasticsearch.client</groupId>
+                <artifactId>elasticsearch-rest-high-level-client</artifactId>
+                <version>${elasticsearch.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
     <distributionManagement>
-        <!--<repository>
+        <repository>
             <id>ossrh</id>
             <name>sonatype-releases</name>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
         </repository>
-        <snapshotRepository>
+        <!--<snapshotRepository>
             <id>ossrh</id>
             <name>sonatype-snapshots</name>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>-->
-        <repository>
+        <!--<repository>
             <id>centit-releases</id>
             <name>centit-release</name>
             <url>http://nexus.centit.com:8081/nexus/content/repositories/centit-releases/</url>
-        </repository>
+        </repository>-->
         <snapshotRepository>
             <id>centit-snapshots</id>
             <name>centit-snapshots</name>
@@ -889,7 +897,7 @@
                 </executions>
             </plugin>
 
-            <!--<plugin>
+            <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
                 <inherited>false</inherited>
@@ -900,7 +908,7 @@
                     <nexusUrl>https://oss.sonatype.org/</nexusUrl>
                     <autoReleaseAfterClose>true</autoReleaseAfterClose>
                 </configuration>
-            </plugin>-->
+            </plugin>
         </plugins>
     </build>
 </project>
