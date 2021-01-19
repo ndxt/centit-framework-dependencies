@@ -317,6 +317,12 @@
             </dependency>
 
             <dependency>
+                <groupId>com.centit.support</groupId>
+                <artifactId>centit-es-client</artifactId>
+                <version>${centit.commons.modules.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>com.centit.product</groupId>
                 <artifactId>communion-module</artifactId>
                 <version>${centit.oa.modules.version}</version>
