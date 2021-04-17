@@ -47,7 +47,7 @@
         <spring-security-rsa.version>1.0.7.RELEASE</spring-security-rsa.version>
         <spring.session.version>2.1.4.RELEASE</spring.session.version>
         <spring.data.version>2.1.5.RELEASE</spring.data.version>
-        <cas.client.version>3.5.1</cas.client.version>
+        <cas.client.version>3.6.1</cas.client.version>
         <ehcache.version>2.10.6</ehcache.version>
 
         <hibernate.version>5.3.7.Final</hibernate.version>
