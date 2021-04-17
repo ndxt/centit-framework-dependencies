@@ -108,7 +108,7 @@
         <tika.version>1.22</tika.version>
         <xdocreport.version>2.0.2</xdocreport.version>
         <javafaker.version>0.16</javafaker.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
 
         <swagger.core.version>1.5.21</swagger.core.version>
         <springfox.swagger.version>2.9.2</springfox.swagger.version>
