@@ -113,7 +113,7 @@
         <swagger.core.version>1.5.21</swagger.core.version>
         <springfox.swagger.version>2.9.2</springfox.swagger.version>
         <swagger.bootstrap.ui.version>1.8.2</swagger.bootstrap.ui.version>
-        <guava.version>28.2-jre</guava.version>
+        <guava.version>29.0-jre</guava.version>
         <lombok.version>1.18.2</lombok.version>
         <checkerframework.version>2.10.0</checkerframework.version>
 
