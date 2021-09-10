@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>framework-snapshot-dependencies</artifactId>
-    <version>5.1-SNAPSHOT</version>
+    <version>5.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Framework Snapshot Dependencies</name>
@@ -19,10 +19,10 @@
     </description>
 
     <properties>
-        <centit.framework.version>5.1-SNAPSHOT</centit.framework.version>
+        <centit.framework.version>5.2-SNAPSHOT</centit.framework.version>
         <centit.persistence.version>5.1-SNAPSHOT</centit.persistence.version>
         <centit.commons.version>2.3-SNAPSHOT</centit.commons.version>
-        <centit.ip.version>5.1-SNAPSHOT</centit.ip.version>
+        <centit.ip.version>5.2-SNAPSHOT</centit.ip.version>
         <centit.ui.version>3.1-SNAPSHOT</centit.ui.version>
         <centit.commons.modules.version>5.1-SNAPSHOT</centit.commons.modules.version>
         <centit.oa.modules.version>5.1-SNAPSHOT</centit.oa.modules.version>
