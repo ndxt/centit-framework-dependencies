@@ -24,9 +24,9 @@
         <centit.commons.version>2.3-SNAPSHOT</centit.commons.version>
         <centit.ip.version>5.2-SNAPSHOT</centit.ip.version>
         <centit.ui.version>3.1-SNAPSHOT</centit.ui.version>
-        <centit.commons.modules.version>5.1-SNAPSHOT</centit.commons.modules.version>
-        <centit.oa.modules.version>5.1-SNAPSHOT</centit.oa.modules.version>
-        <centit.log.modules.version>5.1-SNAPSHOT</centit.log.modules.version>
+        <centit.commons.modules.version>5.2-SNAPSHOT</centit.commons.modules.version>
+        <centit.oa.modules.version>5.2-SNAPSHOT</centit.oa.modules.version>
+        <centit.log.modules.version>5.2-SNAPSHOT</centit.log.modules.version>
     </properties>
 
     <dependencyManagement>
@@ -325,21 +325,21 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-gpg-plugin</artifactId>
-                <inherited>false</inherited>
-                <version>1.6</version>
-                <executions>
-                    <execution>
-                        <id>sign-artifacts</id>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>sign</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-gpg-plugin</artifactId>-->
+<!--                <inherited>false</inherited>-->
+<!--                <version>1.6</version>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <id>sign-artifacts</id>-->
+<!--                        <phase>verify</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>sign</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
 
            <!-- <plugin>
                 <groupId>org.sonatype.plugins</groupId>
