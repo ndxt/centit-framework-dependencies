@@ -5,7 +5,7 @@
     <parent>
         <artifactId>centit-framework-dependencies</artifactId>
         <groupId>com.centit.framework</groupId>
-        <version>5.1.2111</version>
+        <version>5.2.2112</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -20,8 +20,8 @@
 
     <properties>
         <centit.framework.version>5.2-SNAPSHOT</centit.framework.version>
-        <centit.persistence.version>5.1-SNAPSHOT</centit.persistence.version>
-        <centit.commons.version>2.3-SNAPSHOT</centit.commons.version>
+        <centit.persistence.version>5.2-SNAPSHOT</centit.persistence.version>
+        <centit.commons.version>5.2-SNAPSHOT</centit.commons.version>
         <centit.ip.version>5.2-SNAPSHOT</centit.ip.version>
         <centit.ui.version>3.1-SNAPSHOT</centit.ui.version>
         <centit.commons.modules.version>5.2-SNAPSHOT</centit.commons.modules.version>
