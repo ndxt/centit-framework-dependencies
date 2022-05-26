@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>framework-snapshot-dependencies</artifactId>
-    <version>5.1-SNAPSHOT</version>
+    <version>5.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Framework Snapshot Dependencies</name>
@@ -19,14 +19,13 @@
     </description>
 
     <properties>
-        <centit.framework.version>5.1-SNAPSHOT</centit.framework.version>
-        <centit.persistence.version>5.1-SNAPSHOT</centit.persistence.version>
-        <centit.commons.version>2.3-SNAPSHOT</centit.commons.version>
-        <centit.ip.version>5.1-SNAPSHOT</centit.ip.version>
-        <centit.ui.version>3.1-SNAPSHOT</centit.ui.version>
-        <centit.commons.modules.version>5.1-SNAPSHOT</centit.commons.modules.version>
-        <centit.oa.modules.version>5.1-SNAPSHOT</centit.oa.modules.version>
-        <centit.log.modules.version>5.1-SNAPSHOT</centit.log.modules.version>
+        <centit.framework.version>5.2-SNAPSHOT</centit.framework.version>
+        <centit.persistence.version>5.2-SNAPSHOT</centit.persistence.version>
+        <centit.commons.version>5.2-SNAPSHOT</centit.commons.version>
+        <centit.ip.version>5.2-SNAPSHOT</centit.ip.version>
+        <centit.commons.modules.version>5.2-SNAPSHOT</centit.commons.modules.version>
+        <centit.oa.modules.version>5.2-SNAPSHOT</centit.oa.modules.version>
+        <centit.log.modules.version>5.2-SNAPSHOT</centit.log.modules.version>
     </properties>
 
     <dependencyManagement>
@@ -231,12 +230,6 @@
 
             <dependency>
                 <groupId>com.centit.framework</groupId>
-                <artifactId>framework-system-view-easyui</artifactId>
-                <version>${centit.framework.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.centit.framework</groupId>
                 <artifactId>centit-ip-server</artifactId>
                 <version>${centit.ip.version}</version>
             </dependency>
@@ -252,13 +245,6 @@
                 <artifactId>centit-ip-app-config</artifactId>
                 <version>${centit.ip.version}</version>
             </dependency>
-
-            <dependency>
-                <groupId>com.centit.framework</groupId>
-                <artifactId>framework-base-view-easyui</artifactId>
-                <version>${centit.ui.version}</version>
-            </dependency>
-
 
             <dependency>
                 <groupId>com.centit.support</groupId>
