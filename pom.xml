@@ -6,7 +6,7 @@
 
     <groupId>com.centit.framework</groupId>
     <artifactId>centit-framework-dependencies</artifactId>
-    <version>5.1.2111</version>
+    <version>5.2-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Centit Framework Dependencies</name>
     <description>Centit Framework Dependencies</description>
@@ -76,7 +76,7 @@
         <log4j.version>2.16.0</log4j.version>
         <slf4j.version>1.7.26</slf4j.version>
 
-        <fastjson.version>1.2.72</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <fasterxml.jackson.version>2.11.1</fasterxml.jackson.version>
         <httpcomponents.version>4.5.12</httpcomponents.version>
 
