@@ -113,6 +113,9 @@
         <swagger.core.version>1.5.21</swagger.core.version>
         <springfox.swagger.version>2.9.2</springfox.swagger.version>
         <swagger.bootstrap.ui.version>1.8.2</swagger.bootstrap.ui.version>
+        <!-- 国产加密算法版本 -->
+        <gm.bouncycastl.version>1.71</gm.bouncycastl.version>
+        <!-- 不推荐使用这个版本 -->
         <guava.version>28.2-jre</guava.version>
         <lombok.version>1.18.2</lombok.version>
         <checkerframework.version>2.10.0</checkerframework.version>
@@ -716,6 +719,17 @@
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
                 <version>${guava.version}</version>
+            </dependency>
+            <!-- 国产加密算法 gm.bouncycastl.version -->
+            <dependency>
+                <groupId>org.bouncycastle</groupId>
+                <artifactId>bcprov-jdk15to18</artifactId>
+                <version>${gm.bouncycastl.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.bouncycastle</groupId>
+                <artifactId>bcpkix-jdk15to18</artifactId>
+                <version>${gm.bouncycastl.version}</version>
             </dependency>
 
             <!-- test library -->
