@@ -81,7 +81,7 @@
         <httpcomponents.version>4.5.12</httpcomponents.version>
 
         <pinyin4j.version>2.5.1</pinyin4j.version>
-        <apache.poi.version>4.0.1</apache.poi.version>
+        <apache.poi.version>4.1.2</apache.poi.version>
         <itextpdf.version>5.5.11</itextpdf.version>
         <jacob.version>1.18</jacob.version>
 
@@ -106,7 +106,7 @@
         <quartz.version>2.3.0</quartz.version>
 
         <tika.version>1.22</tika.version>
-        <xdocreport.version>2.0.2</xdocreport.version>
+        <xdocreport.version>2.0.3</xdocreport.version>
         <javafaker.version>0.16</javafaker.version>
         <junit.version>4.12</junit.version>
 
