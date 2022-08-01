@@ -6,7 +6,7 @@
 
     <groupId>com.centit.framework</groupId>
     <artifactId>centit-framework-dependencies</artifactId>
-    <version>5.2.2112</version>
+    <version>5.2-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Centit Framework Dependencies</name>
     <description>Centit Framework Dependencies</description>
@@ -38,16 +38,15 @@
     </developers>
 
     <properties>
-        <centit.version>5.2-SNAPSHOT</centit.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jdk.version>1.8</jdk.version>
-        <spring.version>5.2.8.RELEASE</spring.version>
-        <spring.security.version>5.3.3.RELEASE</spring.security.version>
+        <spring.version>5.2.22.RELEASE</spring.version>
+        <spring.security.version>5.5.8</spring.security.version>
         <spring-security-oauth2.version>2.3.5.RELEASE</spring-security-oauth2.version>
         <spring-security-jwt.version>1.0.9.RELEASE</spring-security-jwt.version>
         <spring-security-rsa.version>1.0.7.RELEASE</spring-security-rsa.version>
-        <spring.session.version>2.1.4.RELEASE</spring.session.version>
-        <spring.data.version>2.1.5.RELEASE</spring.data.version>
+        <spring.session.version>2.3.3.RELEASE</spring.session.version>
+        <spring.data.version>2.3.9.RELEASE</spring.data.version>
         <cas.client.version>3.6.1</cas.client.version>
         <ehcache.version>2.10.6</ehcache.version>
 
@@ -77,22 +76,22 @@
         <log4j.version>2.16.0</log4j.version>
         <slf4j.version>1.7.26</slf4j.version>
 
-        <fastjson.version>1.2.72</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <fasterxml.jackson.version>2.11.1</fasterxml.jackson.version>
         <httpcomponents.version>4.5.12</httpcomponents.version>
 
         <pinyin4j.version>2.5.1</pinyin4j.version>
-        <apache.poi.version>4.0.1</apache.poi.version>
+        <apache.poi.version>4.1.2</apache.poi.version>
         <itextpdf.version>5.5.11</itextpdf.version>
         <jacob.version>1.18</jacob.version>
 
         <commons-lang3.version>3.9</commons-lang3.version>
         <commons-math3.version>3.6.1</commons-math3.version>
-        <commons-dbcp2.version>2.9.0</commons-dbcp2.version>
+        <commons-dbcp2.version>2.5.0</commons-dbcp2.version>
         <commons-text.version>1.7</commons-text.version>
         <commons-email.version>1.5</commons-email.version>
         <commons-net.version>3.6</commons-net.version>
-        <commons-pool2.version>2.11.1</commons-pool2.version>
+        <commons-pool2.version>2.6.0</commons-pool2.version>
         <commons-fileupload.version>1.3.3</commons-fileupload.version>
         <commons-io.version>2.6</commons-io.version>
         <commons-codec.version>1.12</commons-codec.version>
@@ -107,13 +106,16 @@
         <quartz.version>2.3.0</quartz.version>
 
         <tika.version>1.22</tika.version>
-        <xdocreport.version>2.0.2</xdocreport.version>
+        <xdocreport.version>2.0.3</xdocreport.version>
         <javafaker.version>0.16</javafaker.version>
         <junit.version>4.12</junit.version>
 
         <swagger.core.version>1.5.21</swagger.core.version>
         <springfox.swagger.version>2.9.2</springfox.swagger.version>
         <swagger.bootstrap.ui.version>1.8.2</swagger.bootstrap.ui.version>
+        <!-- 国产加密算法版本 -->
+        <gm.bouncycastl.version>1.71</gm.bouncycastl.version>
+        <!-- 不推荐使用这个版本 -->
         <guava.version>28.2-jre</guava.version>
         <lombok.version>1.18.2</lombok.version>
         <checkerframework.version>2.10.0</checkerframework.version>
@@ -718,6 +720,17 @@
                 <artifactId>guava</artifactId>
                 <version>${guava.version}</version>
             </dependency>
+            <!-- 国产加密算法 gm.bouncycastl.version -->
+            <dependency>
+                <groupId>org.bouncycastle</groupId>
+                <artifactId>bcprov-jdk15to18</artifactId>
+                <version>${gm.bouncycastl.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.bouncycastle</groupId>
+                <artifactId>bcpkix-jdk15to18</artifactId>
+                <version>${gm.bouncycastl.version}</version>
+            </dependency>
 
             <!-- test library -->
             <dependency>
@@ -797,7 +810,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.8.0</version>
+                    <version>3.8.1</version>
                     <configuration>
                         <source>${jdk.version}</source>
                         <target>${jdk.version}</target>
@@ -850,7 +863,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-source-plugin</artifactId>
-                    <version>3.0.1</version>
+                    <version>3.2.1</version>
                     <executions>
                         <execution>
                             <id>attach-sources</id>
@@ -863,7 +876,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-javadoc-plugin</artifactId>
-                    <version>3.1.0</version>
+                    <version>3.2.0</version>
                     <executions>
                         <execution>
                             <id>attach-javadocs</id>
@@ -882,34 +895,34 @@
         </pluginManagement>
 
         <plugins>
-<!--            <plugin>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-gpg-plugin</artifactId>-->
-<!--                <inherited>false</inherited>-->
-<!--                <version>1.6</version>-->
-<!--                <executions>-->
-<!--                    <execution>-->
-<!--                        <id>sign-artifacts</id>-->
-<!--                        <phase>verify</phase>-->
-<!--                        <goals>-->
-<!--                            <goal>sign</goal>-->
-<!--                        </goals>-->
-<!--                    </execution>-->
-<!--                </executions>-->
-<!--            </plugin>-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <inherited>false</inherited>
+                <version>1.6</version>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
 
-<!--            <plugin>-->
-<!--                <groupId>org.sonatype.plugins</groupId>-->
-<!--                <artifactId>nexus-staging-maven-plugin</artifactId>-->
-<!--                <inherited>false</inherited>-->
-<!--                <version>1.6.8</version>-->
-<!--                <extensions>true</extensions>-->
-<!--                <configuration>-->
-<!--                    <serverId>ossrh</serverId>-->
-<!--                    <nexusUrl>https://oss.sonatype.org/</nexusUrl>-->
-<!--                    <autoReleaseAfterClose>true</autoReleaseAfterClose>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
+            <plugin>
+                <groupId>org.sonatype.plugins</groupId>
+                <artifactId>nexus-staging-maven-plugin</artifactId>
+                <inherited>false</inherited>
+                <version>1.6.8</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <serverId>ossrh</serverId>
+                    <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                    <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>
