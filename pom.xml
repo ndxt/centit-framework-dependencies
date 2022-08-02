@@ -105,7 +105,7 @@
         <websocket-api.version>1.1</websocket-api.version>
         <quartz.version>2.3.0</quartz.version>
 
-        <tika.version>1.22</tika.version>
+        <tika.version>1.28.4</tika.version>
         <pdfbox.version>2.0.24</pdfbox.version>
         <docx4j.JAXB.version>8.3.8</docx4j.JAXB.version>
         <xdocreport.version>2.0.3</xdocreport.version>
@@ -122,7 +122,7 @@
         <lombok.version>1.18.2</lombok.version>
         <checkerframework.version>2.10.0</checkerframework.version>
 
-        <elasticsearch.version>7.0.1</elasticsearch.version>
+        <elasticsearch.version>7.17.5</elasticsearch.version>
     </properties>
 
     <dependencyManagement>
