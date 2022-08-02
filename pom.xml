@@ -106,6 +106,8 @@
         <quartz.version>2.3.0</quartz.version>
 
         <tika.version>1.22</tika.version>
+        <pdfbox.version>2.0.24</pdfbox.version>
+        <docx4j.JAXB.version>8.3.8</docx4j.JAXB.version>
         <xdocreport.version>2.0.3</xdocreport.version>
         <javafaker.version>0.16</javafaker.version>
         <junit.version>4.12</junit.version>
@@ -456,11 +458,28 @@
             </dependency>
 
             <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi-scratchpad</artifactId>
+                <version>${apache.poi.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>org.apache.tika</groupId>
                 <artifactId>tika-parsers</artifactId>
                 <version>${tika.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.apache.pdfbox</groupId>
+                <artifactId>pdfbox</artifactId>
+                <version>${pdfbox.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.docx4j</groupId>
+                <artifactId>docx4j-JAXB-Internal</artifactId>
+                <version>${docx4j.JAXB.version}</version>
+            </dependency>
             <dependency>
                 <groupId>fr.opensagres.xdocreport</groupId>
                 <artifactId>fr.opensagres.xdocreport.converter</artifactId>
@@ -478,9 +497,16 @@
                 <artifactId>fr.opensagres.xdocreport.template.freemarker</artifactId>
                 <version>${xdocreport.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>fr.opensagres.xdocreport</groupId>
                 <artifactId>fr.opensagres.xdocreport.document.docx</artifactId>
+                <version>${xdocreport.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>fr.opensagres.xdocreport</groupId>
+                <artifactId>fr.opensagres.xdocreport.converter.docx.xwpf</artifactId>
                 <version>${xdocreport.version}</version>
             </dependency>
 
