@@ -58,8 +58,8 @@
         <mybatis.spring.version>1.3.2</mybatis.spring.version>
 
         <h2.version>1.4.196</h2.version>
-        <redis.version>3.0.0</redis.version>
-        <lettuce.version>3.5.0.Final</lettuce.version>
+        <lettuce.version>6.1.7.RELEASE</lettuce.version>
+        <lettuce-utils.version>2.0.3</lettuce-utils.version>
         <netty.version>4.1.37.Final</netty.version>
 
         <ucanaccess.version>4.0.4</ucanaccess.version>
@@ -72,6 +72,7 @@
 
         <ical4j.version>2.2.0</ical4j.version>
         <dom4j.version>2.1.3</dom4j.version>
+        <jaxen.version>1.1.6</jaxen.version>
 
         <log4j.version>2.16.0</log4j.version>
         <slf4j.version>1.7.26</slf4j.version>
@@ -394,15 +395,15 @@
             </dependency>
             <!--引入jedis数据库来管理session的持久化问题-->
             <dependency>
-                <groupId>biz.paluch.redis</groupId>
-                <artifactId>lettuce</artifactId>
+                <groupId>io.lettuce</groupId>
+                <artifactId>lettuce-core</artifactId>
                 <version>${lettuce.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>redis.clients</groupId>
-                <artifactId>jedis</artifactId>
-                <version>${redis.version}</version>
+                <groupId>org.latencyutils</groupId>
+                <artifactId>LatencyUtils</artifactId>
+                <version>${lettuce-utils.version}</version>
             </dependency>
 
             <dependency>
@@ -618,10 +619,17 @@
                 <artifactId>ical4j</artifactId>
                 <version>${ical4j.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>org.dom4j</groupId>
                 <artifactId>dom4j</artifactId>
                 <version>${dom4j.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>jaxen</groupId>
+                <artifactId>jaxen</artifactId>
+                <version>${jaxen.version}</version>
             </dependency>
 
             <dependency>
