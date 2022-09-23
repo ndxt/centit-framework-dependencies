@@ -69,7 +69,7 @@
         <ucanaccess.version>4.0.4</ucanaccess.version>
         <ojdbc6.version>11.2.0.4</ojdbc6.version>
         <oracle-jdbc.version>11.2.0.3.0</oracle-jdbc.version>
-        <mysql.version>5.1.49</mysql.version>
+        <mysql.version>8.0.30</mysql.version>
         <postgresql.version>42.2.5</postgresql.version>
 
         <proxool.version>0.9.1</proxool.version>
