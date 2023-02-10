@@ -19,13 +19,13 @@
     </description>
 
     <properties>
-        <centit.framework.version>5.2-SNAPSHOT</centit.framework.version>
-        <centit.persistence.version>5.2-SNAPSHOT</centit.persistence.version>
-        <centit.commons.version>5.2-SNAPSHOT</centit.commons.version>
-        <centit.ip.version>5.2-SNAPSHOT</centit.ip.version>
-        <centit.commons.modules.version>5.2-SNAPSHOT</centit.commons.modules.version>
-        <centit.oa.modules.version>5.2-SNAPSHOT</centit.oa.modules.version>
-        <centit.log.modules.version>5.2-SNAPSHOT</centit.log.modules.version>
+        <centit.framework.version>5.3-SNAPSHOT</centit.framework.version>
+        <centit.persistence.version>5.3-SNAPSHOT</centit.persistence.version>
+        <centit.commons.version>5.3-SNAPSHOT</centit.commons.version>
+        <centit.ip.version>5.3-SNAPSHOT</centit.ip.version>
+        <centit.commons.modules.version>5.3-SNAPSHOT</centit.commons.modules.version>
+        <centit.oa.modules.version>5.3-SNAPSHOT</centit.oa.modules.version>
+        <centit.log.modules.version>5.3-SNAPSHOT</centit.log.modules.version>
     </properties>
 
     <dependencyManagement>
