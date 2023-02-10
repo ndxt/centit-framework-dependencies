@@ -6,7 +6,7 @@
 
     <groupId>com.centit.framework</groupId>
     <artifactId>centit-framework-dependencies</artifactId>
-    <version>5.2-SNAPSHOT</version>
+    <version>5.3-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Centit Framework Dependencies</name>
     <description>Centit Framework Dependencies</description>
@@ -371,12 +371,6 @@
                 <groupId>org.hibernate</groupId>
                 <artifactId>hibernate-entitymanager</artifactId>
                 <version>${hibernate.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.hibernate</groupId>
-                <artifactId>hibernate-validator</artifactId>
-                <version>${hibernate.validator.version}</version>
             </dependency>
 
             <dependency>

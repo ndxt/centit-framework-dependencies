@@ -5,12 +5,12 @@
     <parent>
         <artifactId>centit-framework-dependencies</artifactId>
         <groupId>com.centit.framework</groupId>
-        <version>5.2-SNAPSHOT</version>
+        <version>5.3-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>framework-release-dependencies</artifactId>
     <packaging>pom</packaging>
-    <version>5.2-SNAPSHOT</version>
+    <version>5.3-SNAPSHOT</version>
 
     <name>Framework Release Dependencies</name>
     <description>
@@ -37,14 +37,32 @@
 
             <dependency>
                 <groupId>com.centit.support</groupId>
-                <artifactId>centit-compiler</artifactId>
+                <artifactId>centit-database</artifactId>
                 <version>${centit.commons.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.centit.support</groupId>
-                <artifactId>centit-database</artifactId>
-                <version>${centit.commons.version}</version>
+                <artifactId>centit-quartz-extend</artifactId>
+                <version>${centit.commons.modules.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.support</groupId>
+                <artifactId>centit-office-utils</artifactId>
+                <version>${centit.commons.modules.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.support</groupId>
+                <artifactId>centit-report-utils</artifactId>
+                <version>${centit.commons.modules.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.support</groupId>
+                <artifactId>centit-es-client</artifactId>
+                <version>${centit.commons.modules.version}</version>
             </dependency>
 
             <dependency>
@@ -89,29 +107,6 @@
                 <version>${centit.persistence.version}</version>
             </dependency>
 
-            <dependency>
-                <groupId>com.centit.framework</groupId>
-                <artifactId>centit-persistence-mybatis</artifactId>
-                <version>${centit.persistence.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.centit.framework</groupId>
-                <artifactId>centit-persistence-mybatis-config</artifactId>
-                <version>${centit.persistence.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.centit.framework</groupId>
-                <artifactId>centit-persistence-hibernate</artifactId>
-                <version>${centit.persistence.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.centit.framework</groupId>
-                <artifactId>centit-persistence-hibernate-config</artifactId>
-                <version>${centit.persistence.version}</version>
-            </dependency>
             <dependency>
                 <groupId>com.centit.framework</groupId>
                 <artifactId>centit-persistence-jdbc</artifactId>
@@ -216,18 +211,6 @@
 
             <dependency>
                 <groupId>com.centit.framework</groupId>
-                <artifactId>framework-persistence-hibernate</artifactId>
-                <version>${centit.framework.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.centit.framework</groupId>
-                <artifactId>framework-persistence-mybatis</artifactId>
-                <version>${centit.framework.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.centit.framework</groupId>
                 <artifactId>framework-persistence-jdbc</artifactId>
                 <version>${centit.framework.version}</version>
             </dependency>
@@ -302,30 +285,6 @@
                 <groupId>com.centit.framework</groupId>
                 <artifactId>framework-system-view-easyui</artifactId>
                 <version>${centit.framework.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.centit.support</groupId>
-                <artifactId>centit-quartz-extend</artifactId>
-                <version>${centit.commons.modules.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.centit.support</groupId>
-                <artifactId>centit-office-utils</artifactId>
-                <version>${centit.commons.modules.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.centit.support</groupId>
-                <artifactId>centit-report-utils</artifactId>
-                <version>${centit.commons.modules.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.centit.support</groupId>
-                <artifactId>centit-es-client</artifactId>
-                <version>${centit.commons.modules.version}</version>
             </dependency>
 
             <dependency>
