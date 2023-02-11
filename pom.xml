@@ -94,7 +94,7 @@
         <commons-math3.version>3.6.1</commons-math3.version>
         <commons-text.version>1.9</commons-text.version>
         <commons-email.version>1.5</commons-email.version>
-        <commons-net.version>3.8.0</commons-net.version>
+        <commons-net.version>3.9.0</commons-net.version>
         <commons-pool2.version>2.11.1</commons-pool2.version>
         <commons-fileupload.version>1.4</commons-fileupload.version>
         <commons-io.version>2.11.0</commons-io.version>
