@@ -50,7 +50,7 @@
         <cas.client.version>3.6.1</cas.client.version>
         <ehcache.version>2.10.6</ehcache.version>
 
-        <hibernate.version>5.3.7.Final</hibernate.version>
+        <hibernate.version>5.3.20.Final</hibernate.version>
         <hibernate.validator.version>6.0.13.Final</hibernate.validator.version>
         <flyway.version>4.2.0</flyway.version>
         <persistence-api.version>2.2</persistence-api.version>
