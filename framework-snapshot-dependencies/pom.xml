@@ -26,6 +26,7 @@
         <centit.commons.modules.version>5.3-SNAPSHOT</centit.commons.modules.version>
         <centit.oa.modules.version>5.3-SNAPSHOT</centit.oa.modules.version>
         <centit.log.modules.version>5.3-SNAPSHOT</centit.log.modules.version>
+        <centit.msgpusher.version>5.3-SNAPSHOT</centit.msgpusher.version>
     </properties>
 
     <dependencyManagement>
@@ -267,12 +268,6 @@
 
             <dependency>
                 <groupId>com.centit.product</groupId>
-                <artifactId>message-sender-utils</artifactId>
-                <version>${centit.oa.modules.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.centit.product</groupId>
                 <artifactId>rmdb-opt-log</artifactId>
                 <version>${centit.log.modules.version}</version>
             </dependency>
@@ -283,6 +278,35 @@
                 <version>${centit.log.modules.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.centit.product</groupId>
+                <artifactId>msgpusher-plugin-baidu</artifactId>
+                <version>${centit.msgpusher.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.product</groupId>
+                <artifactId>msgpusher-plugin-email</artifactId>
+                <version>${centit.msgpusher.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.product</groupId>
+                <artifactId>msgpusher-plugin-jpush</artifactId>
+                <version>${centit.msgpusher.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.product</groupId>
+                <artifactId>msgpusher-plugin-tio</artifactId>
+                <version>${centit.msgpusher.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.centit.product</groupId>
+                <artifactId>msgpusher-plugin-websocket</artifactId>
+                <version>${centit.msgpusher.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
