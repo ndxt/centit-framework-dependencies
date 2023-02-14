@@ -6,7 +6,7 @@
 
     <groupId>com.centit.framework</groupId>
     <artifactId>centit-framework-dependencies</artifactId>
-    <version>5.3-SNAPSHOT</version>
+    <version>5.3.2302</version>
     <packaging>pom</packaging>
     <name>Centit Framework Dependencies</name>
     <description>Centit Framework Dependencies</description>
