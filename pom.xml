@@ -87,7 +87,7 @@
 
         <pinyin4j.version>2.5.1</pinyin4j.version>
         <apache.poi.version>5.2.0</apache.poi.version>
-        <itextpdf.version>5.5.11</itextpdf.version>
+        <itextpdf.version>5.5.13.3</itextpdf.version>
         <jacob.version>1.18</jacob.version>
 
         <commons-lang3.version>3.12.0</commons-lang3.version>
