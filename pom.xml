@@ -126,7 +126,7 @@
         <lombok.version>1.18.2</lombok.version>
         <checkerframework.version>2.10.0</checkerframework.version>
 
-        <es.version>7.17.9</es.version>
+        <elasticsearch.version>7.17.9</elasticsearch.version>
     </properties>
 
     <dependencyManagement>
