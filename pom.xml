@@ -124,6 +124,7 @@
         <gm.bouncycastl.version>1.71</gm.bouncycastl.version>
         <!-- 不推荐使用这个版本 -->
         <guava.version>28.2-jre</guava.version>
+        <zxing.version>3.5.1</zxing.version>
         <lombok.version>1.18.2</lombok.version>
         <checkerframework.version>2.10.0</checkerframework.version>
 
@@ -781,6 +782,17 @@
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
                 <version>${guava.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.zxing</groupId>
+                <artifactId>core</artifactId>
+                <version>${zxing.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.zxing</groupId>
+                <artifactId>javase</artifactId>
+                <version>${zxing.version}</version>
             </dependency>
             <!-- 国产加密算法 gm.bouncycastl.version -->
             <dependency>
