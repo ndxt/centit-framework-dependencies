@@ -5,12 +5,12 @@
     <parent>
         <artifactId>centit-framework-dependencies</artifactId>
         <groupId>com.centit.framework</groupId>
-        <version>5.3-SNAPSHOT</version>
+        <version>5.4-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>framework-snapshot-dependencies</artifactId>
-    <version>5.3-SNAPSHOT</version>
+    <version>5.4-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Framework Snapshot Dependencies</name>
@@ -19,14 +19,14 @@
     </description>
 
     <properties>
-        <centit.framework.version>5.3-SNAPSHOT</centit.framework.version>
-        <centit.persistence.version>5.3-SNAPSHOT</centit.persistence.version>
-        <centit.commons.version>5.3-SNAPSHOT</centit.commons.version>
-        <centit.ip.version>5.3-SNAPSHOT</centit.ip.version>
-        <centit.commons.modules.version>5.3-SNAPSHOT</centit.commons.modules.version>
-        <centit.oa.modules.version>5.3-SNAPSHOT</centit.oa.modules.version>
-        <centit.log.modules.version>5.3-SNAPSHOT</centit.log.modules.version>
-        <centit.msgpusher.version>5.3-SNAPSHOT</centit.msgpusher.version>
+        <centit.framework.version>5.4-SNAPSHOT</centit.framework.version>
+        <centit.persistence.version>5.4-SNAPSHOT</centit.persistence.version>
+        <centit.commons.version>5.4-SNAPSHOT</centit.commons.version>
+        <centit.ip.version>5.4-SNAPSHOT</centit.ip.version>
+        <centit.commons.modules.version>5.4-SNAPSHOT</centit.commons.modules.version>
+        <centit.oa.modules.version>5.4-SNAPSHOT</centit.oa.modules.version>
+        <centit.log.modules.version>5.4-SNAPSHOT</centit.log.modules.version>
+        <centit.msgpusher.version>5.4-SNAPSHOT</centit.msgpusher.version>
     </properties>
 
     <dependencyManagement>
