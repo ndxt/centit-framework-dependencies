@@ -218,12 +218,6 @@
 
             <dependency>
                 <groupId>com.centit.framework</groupId>
-                <artifactId>framework-system-entity</artifactId>
-                <version>${centit.framework.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.centit.framework</groupId>
                 <artifactId>framework-system-module</artifactId>
                 <version>${centit.framework.version}</version>
             </dependency>
