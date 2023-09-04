@@ -46,7 +46,7 @@
         <spring-security-jwt.version>1.1.1.RELEASE</spring-security-jwt.version>
         <spring-security-rsa.version>1.0.11.RELEASE</spring-security-rsa.version>
         <spring.session.version>2.3.3.RELEASE</spring.session.version>
-        <spring.data.version>2.6.10</spring.data.version>
+        <spring.data.version>2.3.9.RELEASE</spring.data.version>
         <cas.client.version>3.6.1</cas.client.version>
         <ehcache.version>2.10.6</ehcache.version>
 
