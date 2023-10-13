@@ -39,96 +39,93 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jdk.version>1.8</jdk.version>
-        <spring.version>5.2.22.RELEASE</spring.version>
-        <spring.security.version>5.4.10</spring.security.version>
-        <spring-security-oauth2.version>2.3.8.RELEASE</spring-security-oauth2.version>
+        <!--IntelliJ IDEA 暂时没有jdk21的特性选项 -->
+        <jdk.version>17</jdk.version>
+        <spring.version>6.0.12</spring.version>
+        <spring.boot.version>3.1.4</spring.boot.version>
+        <spring.security.version>6.1.4</spring.security.version>
+        <spring-security-oauth2.version>2.5.2.RELEASE</spring-security-oauth2.version>
         <spring-security-jwt.version>1.1.1.RELEASE</spring-security-jwt.version>
-        <spring-security-rsa.version>1.0.11.RELEASE</spring-security-rsa.version>
-        <spring.session.version>2.3.3.RELEASE</spring.session.version>
-        <spring.data.version>2.3.9.RELEASE</spring.data.version>
-        <cas.client.version>3.6.1</cas.client.version>
-        <ehcache.version>2.10.6</ehcache.version>
+        <spring-security-rsa.version>1.1.1</spring-security-rsa.version>
+        <spring.session.version>3.1.2</spring.session.version>
+        <spring.data.version>3.1.4</spring.data.version>
+        <cas.client.version>3.6.4</cas.client.version>
+        <ehcache.version>2.10.9.2</ehcache.version>
 
-        <hibernate.version>5.3.7.Final</hibernate.version>
-        <hibernate.validator.version>6.0.13.Final</hibernate.validator.version>
-        <flyway.version>4.2.0</flyway.version>
+        <hibernate.validator.version>8.0.1.Final</hibernate.validator.version>
+        <flyway.version>9.22.2</flyway.version>
         <persistence-api.version>2.2</persistence-api.version>
-        <mybatis.version>3.4.6</mybatis.version>
-        <mybatis.spring.version>1.3.2</mybatis.spring.version>
 
-        <druid.version>1.2.12</druid.version>
-        <c3p0.version>0.9.1.2</c3p0.version>
-        <commons-dbcp2.version>2.9.0</commons-dbcp2.version>
+        <druid.version>1.2.20</druid.version>
+        <c3p0.version>0.9.5.5</c3p0.version>
+        <commons-dbcp2.version>2.10.0</commons-dbcp2.version>
 
-        <h2.version>1.4.196</h2.version>
-        <lettuce.version>6.1.8.RELEASE</lettuce.version>
+        <h2.version>2.2.224</h2.version>
+        <lettuce.version>6.2.6.RELEASE</lettuce.version>
         <lettuce-utils.version>2.0.3</lettuce-utils.version>
-        <netty.version>4.1.37.Final</netty.version>
 
-        <ucanaccess.version>4.0.4</ucanaccess.version>
+        <ucanaccess.version>5.0.1</ucanaccess.version>
         <ojdbc6.version>11.2.0.4</ojdbc6.version>
         <oracle-jdbc.version>11.2.0.3.0</oracle-jdbc.version>
-        <mysql.version>8.0.30</mysql.version>
-        <postgresql.version>42.2.5</postgresql.version>
+        <mysql.version>8.0.33</mysql.version>
+        <postgresql.version>42.6.0</postgresql.version>
 
         <proxool.version>0.9.1</proxool.version>
 
-        <ical4j.version>2.2.0</ical4j.version>
-        <dom4j.version>2.1.3</dom4j.version>
-        <jaxen.version>1.1.6</jaxen.version>
+        <ical4j.version>3.2.13</ical4j.version>
+        <dom4j.version>2.1.4</dom4j.version>
+        <jaxen.version>2.0.0</jaxen.version>
 
-        <log4j.version>2.16.0</log4j.version>
-        <slf4j.version>1.7.26</slf4j.version>
+        <log4j.version>2.20.0</log4j.version>
+        <slf4j.version>2.0.9</slf4j.version>
 
-        <fastjson.version>2.0.26</fastjson.version>
-        <fasterxml.jackson.version>2.11.1</fasterxml.jackson.version>
-        <httpcomponents.version>4.5.13</httpcomponents.version>
+        <fastjson.version>2.0.41</fastjson.version>
+        <fasterxml.jackson.version>2.15.2</fasterxml.jackson.version>
+        <httpcomponents.version>4.5.14</httpcomponents.version>
 
         <pinyin4j.version>2.5.1</pinyin4j.version>
-        <apache.poi.version>5.2.0</apache.poi.version>
+        <apache.poi.version>5.2.4</apache.poi.version>
         <itextpdf.version>5.5.13.3</itextpdf.version>
-        <jacob.version>1.18</jacob.version>
 
-        <commons-lang3.version>3.12.0</commons-lang3.version>
+        <commons-lang3.version>3.13.0</commons-lang3.version>
         <commons-math3.version>3.6.1</commons-math3.version>
         <commons-text.version>1.10.0</commons-text.version>
         <commons-email.version>1.5</commons-email.version>
-        <commons-net.version>3.9.0</commons-net.version>
-        <commons-pool2.version>2.11.1</commons-pool2.version>
-        <commons-fileupload.version>1.4</commons-fileupload.version>
-        <commons-io.version>2.11.0</commons-io.version>
-        <commons-codec.version>1.15</commons-codec.version>
+        <commons-net.version>3.10.0</commons-net.version>
+        <commons-pool2.version>2.12.0</commons-pool2.version>
+        <commons-fileupload.version>1.5</commons-fileupload.version>
+        <commons-io.version>2.14.0</commons-io.version>
+        <commons-codec.version>1.16.0</commons-codec.version>
         <commons-collections4.version>4.4</commons-collections4.version>
-        <commons-csv.version>1.9.0</commons-csv.version>
+        <commons-csv.version>1.10.0</commons-csv.version>
 
         <javax.validation.version>2.0.1.Final</javax.validation.version>
-        <javassist.version>3.29.0-GA</javassist.version>
+        <javassist.version>3.29.2-GA</javassist.version>
         <jstl.version>1.2</jstl.version>
         <servlet-api.version>3.1.0</servlet-api.version>
         <websocket-api.version>1.1</websocket-api.version>
         <quartz.version>2.3.2</quartz.version>
 
-        <tika.version>1.28.4</tika.version>
-        <pdfbox.version>2.0.24</pdfbox.version>
-        <docx4j.JAXB.version>8.3.8</docx4j.JAXB.version>
+        <tika.version>2.9.0</tika.version>
+        <pdfbox.version>3.0.0</pdfbox.version>
+        <docx4j.JAXB.version>8.3.9</docx4j.JAXB.version>
         <xdocreport.version>2.0.4</xdocreport.version>
-        <jxls.version>2.12.0</jxls.version>
+        <jxls.version>2.13.0</jxls.version>
         <javafaker.version>1.0.2</javafaker.version>
-        <junit.version>4.13.1</junit.version>
+        <junit.version>4.13.2</junit.version>
 
-        <swagger.core.version>1.6.6</swagger.core.version>
-        <springfox.swagger.version>2.9.2</springfox.swagger.version>
+        <swagger.core.version>2.2.16</swagger.core.version>
+        <springfox.swagger.version>3.0.0</springfox.swagger.version>
         <swagger.bootstrap.ui.version>1.9.6</swagger.bootstrap.ui.version>
         <!-- 国产加密算法版本 -->
-        <gm.bouncycastl.version>1.71</gm.bouncycastl.version>
+        <gm.bouncycastl.version>1.76</gm.bouncycastl.version>
         <!-- 不推荐使用这个版本 -->
-        <guava.version>28.2-jre</guava.version>
-        <zxing.version>3.5.1</zxing.version>
+        <guava.version>32.1.3-jre</guava.version>
+        <zxing.version>3.5.2</zxing.version>
         <lombok.version>1.18.30</lombok.version>
-        <checkerframework.version>2.10.0</checkerframework.version>
+        <checkerframework.version>3.39.0</checkerframework.version>
 
-        <elasticsearch.version>7.17.9</elasticsearch.version>
+        <elasticsearch.version>8.10.3</elasticsearch.version>
     </properties>
 
     <dependencyManagement>
@@ -370,33 +367,9 @@
             </dependency>
 
             <dependency>
-                <groupId>org.hibernate</groupId>
-                <artifactId>hibernate-core</artifactId>
-                <version>${hibernate.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.hibernate</groupId>
-                <artifactId>hibernate-entitymanager</artifactId>
-                <version>${hibernate.version}</version>
-            </dependency>
-
-            <dependency>
                 <groupId>org.hibernate.validator</groupId>
                 <artifactId>hibernate-validator</artifactId>
                 <version>${hibernate.validator.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.mybatis</groupId>
-                <artifactId>mybatis</artifactId>
-                <version>${mybatis.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.mybatis</groupId>
-                <artifactId>mybatis-spring</artifactId>
-                <version>${mybatis.spring.version}</version>
             </dependency>
 
             <dependency>
@@ -697,22 +670,6 @@
                 <version>${jstl.version}</version>
             </dependency>
 
-            <!-- java操作office转pdf-->
-            <dependency>
-                <groupId>com.hynnet</groupId>
-                <artifactId>jacob</artifactId>
-                <version>${jacob.version}</version>
-            </dependency>
-
-            <!-- 将这个dll 放到java的 bin目录下，并且必须在windows下运行 -->
-            <dependency>
-                <groupId>com.hynnet</groupId>
-                <artifactId>jacob</artifactId>
-                <version>${jacob.version}</version>
-                <classifier>x64</classifier>
-                <type>dll</type>
-            </dependency>
-
             <!--com.lowagie itext 4.2.1 相当有 itextpdf的5.5.6，同时
              它将覆盖 com.lowagie 2.1.7 -->
             <dependency>
@@ -736,14 +693,15 @@
                 <scope>provided</scope>
             </dependency>
 
+            <!-- https://mvnrepository.com/artifact/io.swagger.core.v3/swagger-annotations -->
             <dependency>
-                <groupId>io.swagger</groupId>
+                <groupId>io.swagger.core.v3</groupId>
                 <artifactId>swagger-annotations</artifactId>
                 <version>${swagger.core.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>io.swagger</groupId>
+                <groupId>io.swagger.core.v3</groupId>
                 <artifactId>swagger-models</artifactId>
                 <version>${swagger.core.version}</version>
             </dependency>
@@ -803,12 +761,12 @@
             <!-- 国产加密算法 gm.bouncycastl.version -->
             <dependency>
                 <groupId>org.bouncycastle</groupId>
-                <artifactId>bcprov-jdk15to18</artifactId>
+                <artifactId>bcprov-jdk18on</artifactId>
                 <version>${gm.bouncycastl.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.bouncycastle</groupId>
-                <artifactId>bcpkix-jdk15to18</artifactId>
+                <artifactId>bcpkix-jdk18on</artifactId>
                 <version>${gm.bouncycastl.version}</version>
             </dependency>
 
