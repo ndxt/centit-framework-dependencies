@@ -125,7 +125,7 @@
         <lombok.version>1.18.30</lombok.version>
         <checkerframework.version>3.39.0</checkerframework.version>
 
-        <elasticsearch.version>8.10.3</elasticsearch.version>
+        <elasticsearch.version>7.17.14</elasticsearch.version>
     </properties>
 
     <dependencyManagement>
@@ -456,7 +456,7 @@
 
             <dependency>
                 <groupId>org.apache.tika</groupId>
-                <artifactId>tika-parsers</artifactId>
+                <artifactId>tika-core</artifactId>
                 <version>${tika.version}</version>
             </dependency>
 
