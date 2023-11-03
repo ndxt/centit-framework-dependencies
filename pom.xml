@@ -114,7 +114,7 @@
         <javafaker.version>1.0.2</javafaker.version>
         <junit.version>4.13.2</junit.version>
 
-        <swagger.core.version>2.2.16</swagger.core.version>
+        <swagger.core.version>2.2.15</swagger.core.version>
         <springfox.swagger.version>3.0.0</springfox.swagger.version>
         <swagger.bootstrap.ui.version>1.9.6</swagger.bootstrap.ui.version>
         <!-- 国产加密算法版本 -->
@@ -720,6 +720,12 @@
 
             <dependency>
                 <groupId>io.swagger.core.v3</groupId>
+                <artifactId>swagger-annotations-jakarta</artifactId>
+                <version>${swagger.core.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.swagger.core.v3</groupId>
                 <artifactId>swagger-models</artifactId>
                 <version>${swagger.core.version}</version>
             </dependency>
@@ -951,7 +957,7 @@
         </pluginManagement>
 
         <plugins>
-            <plugin>
+            <!--<plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
                 <inherited>false</inherited>
@@ -965,7 +971,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin>-->
 
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
