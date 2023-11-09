@@ -54,7 +54,7 @@
 
         <hibernate.validator.version>8.0.1.Final</hibernate.validator.version>
         <flyway.version>9.22.2</flyway.version>
-        <persistence-api.version>2.2</persistence-api.version>
+        <persistence-api.version>3.1.0</persistence-api.version>
 
         <druid.version>1.2.20</druid.version>
         <c3p0.version>0.9.5.5</c3p0.version>
@@ -67,7 +67,7 @@
         <ucanaccess.version>5.0.1</ucanaccess.version>
         <ojdbc6.version>11.2.0.4</ojdbc6.version>
         <oracle-jdbc.version>11.2.0.3.0</oracle-jdbc.version>
-        <mysql.version>8.0.33</mysql.version>
+        <mysql.version>8.1.0</mysql.version>
         <postgresql.version>42.6.0</postgresql.version>
 
         <proxool.version>0.9.1</proxool.version>
@@ -99,7 +99,7 @@
         <commons-collections4.version>4.4</commons-collections4.version>
         <commons-csv.version>1.10.0</commons-csv.version>
 
-        <javax.validation.version>2.0.1.Final</javax.validation.version>
+        <validation-api.version>3.0.2</validation-api.version>
         <javassist.version>3.29.2-GA</javassist.version>
         <jstl.version>1.2</jstl.version>
         <servlet-api.version>6.0.0</servlet-api.version>
@@ -441,8 +441,8 @@
             </dependency>
 
             <dependency>
-                <groupId>mysql</groupId>
-                <artifactId>mysql-connector-java</artifactId>
+                <groupId>com.mysql</groupId>
+                <artifactId>mysql-connector-j</artifactId>
                 <version>${mysql.version}</version>
                 <scope>runtime</scope>
             </dependency>
@@ -666,17 +666,6 @@
             </dependency>
 
             <dependency>
-                <groupId>javax.persistence</groupId>
-                <artifactId>javax.persistence-api</artifactId>
-                <version>${persistence-api.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>javax.validation</groupId>
-                <artifactId>validation-api</artifactId>
-                <version>${javax.validation.version}</version>
-            </dependency>
-
-            <dependency>
                 <groupId>net.sf.ehcache</groupId>
                 <artifactId>ehcache</artifactId>
                 <version>${ehcache.version}</version>
@@ -696,7 +685,19 @@
                 <version>${itextpdf.version}</version>
             </dependency>
 
-            <!-- provided and system -->
+            <!-- provided、javaEE and system -->
+            <dependency>
+                <groupId>jakarta.persistence</groupId>
+                <artifactId>jakarta.persistence-api</artifactId>
+                <version>${persistence-api.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>jakarta.validation</groupId>
+                <artifactId>jakarta.validation-api</artifactId>
+                <version>${validation-api.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>jakarta.websocket</groupId>
                 <artifactId>jakarta.websocket-api</artifactId>
