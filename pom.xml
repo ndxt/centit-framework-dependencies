@@ -60,7 +60,7 @@
         <druid.version>1.2.12</druid.version>
         <c3p0.version>0.9.1.2</c3p0.version>
         <commons-dbcp2.version>2.9.0</commons-dbcp2.version>
-        <HikariCP.version>5.0.1</HikariCP.version>
+        <HikariCP.version>4.0.3</HikariCP.version>
 
         <h2.version>1.4.196</h2.version>
         <lettuce.version>6.1.8.RELEASE</lettuce.version>
