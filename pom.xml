@@ -56,9 +56,7 @@
         <flyway.version>9.22.2</flyway.version>
         <persistence-api.version>3.1.0</persistence-api.version>
 
-        <druid.version>1.2.20</druid.version>
-        <c3p0.version>0.9.5.5</c3p0.version>
-        <commons-dbcp2.version>2.10.0</commons-dbcp2.version>
+        <HikariCP.version>5.0.1</HikariCP.version>
 
         <h2.version>2.2.224</h2.version>
         <lettuce.version>6.2.6.RELEASE</lettuce.version>
@@ -348,22 +346,10 @@
             </dependency>
 
             <!-- database -->
-            <dependency>
-                <groupId>org.apache.commons</groupId>
-                <artifactId>commons-dbcp2</artifactId>
-                <version>${commons-dbcp2.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>c3p0</groupId>
-                <artifactId>c3p0</artifactId>
-                <version>${c3p0.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>druid</artifactId>
-                <version>${druid.version}</version>
+             <dependency>
+                <groupId>com.zaxxer</groupId>
+                <artifactId>HikariCP</artifactId>
+                <version>${HikariCP.version}</version>
             </dependency>
 
             <dependency>
