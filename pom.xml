@@ -116,7 +116,7 @@
         <springfox.swagger.version>3.0.0</springfox.swagger.version>
         <swagger.bootstrap.ui.version>1.9.6</swagger.bootstrap.ui.version>
         <!-- 国产加密算法版本 -->
-        <gm.bouncycastl.version>1.76</gm.bouncycastl.version>
+        <gm.bouncycastl.version>1.77</gm.bouncycastl.version>
         <!-- 不推荐使用这个版本 -->
         <guava.version>32.1.3-jre</guava.version>
         <zxing.version>3.5.2</zxing.version>
@@ -814,6 +814,7 @@
                 <artifactId>elasticsearch-rest-high-level-client</artifactId>
                 <version>${elasticsearch.version}</version>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
 
