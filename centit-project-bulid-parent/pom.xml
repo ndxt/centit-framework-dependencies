@@ -12,6 +12,7 @@
     <artifactId>centit-project-bulid-parent</artifactId>
     <name>centit common project</name>
     <version>${revision}</version>
+    <packaging>pom</packaging>
 
     <properties>
         <revision>5.5-SNAPSHOT</revision>

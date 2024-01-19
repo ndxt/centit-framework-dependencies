@@ -3,3 +3,4 @@
 **/overlays/
 .attach*
 *.iml
+.flattened-pom.xml
