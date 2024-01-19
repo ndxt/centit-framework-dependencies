@@ -21,6 +21,9 @@
             <url>http://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
     </licenses>
+    <modules>
+        <module>centit-project-bulid-parent</module>
+    </modules>
     <scm>
         <url>https://www.github.com/ndxt/centit-framework-dependencies/</url>
     </scm>
