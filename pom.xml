@@ -21,6 +21,9 @@
             <url>http://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
     </licenses>
+    <modules>
+        <module>centit-project-bulid-parent</module>
+    </modules>
     <scm>
         <url>https://www.github.com/ndxt/centit-framework-dependencies/</url>
     </scm>
@@ -64,10 +67,12 @@
 
         <ucanaccess.version>5.0.1</ucanaccess.version>
         <ojdbc6.version>11.2.0.4</ojdbc6.version>
-        <oracle-jdbc.version>11.2.0.3.0</oracle-jdbc.version>
+        <oracle-jdbc8.version>23.2.0.0</oracle-jdbc8.version>
         <mysql.version>8.2.0</mysql.version>
         <postgresql.version>42.6.0</postgresql.version>
-
+        <mssql-jdbc.version>12.4.2.jre8</mssql-jdbc.version>
+        <shentongjdbc.version>4.0</shentongjdbc.version>
+        <dmjdbc.version>1.7.0</dmjdbc.version>
         <proxool.version>0.9.1</proxool.version>
 
         <ical4j.version>3.2.13</ical4j.version>
@@ -401,12 +406,6 @@
             </dependency>
 
             <dependency>
-                <groupId>net.sf.ucanaccess</groupId>
-                <artifactId>ucanaccess</artifactId>
-                <version>${ucanaccess.version}</version>
-            </dependency>
-
-            <dependency>
                 <groupId>com.h2database</groupId>
                 <artifactId>h2</artifactId>
                 <version>${h2.version}</version>
@@ -420,9 +419,9 @@
             </dependency>
 
             <dependency>
-                <groupId>oracle</groupId>
-                <artifactId>oracle-jdbc</artifactId>
-                <version>${oracle-jdbc.version}</version>
+                <groupId>com.oracle.database.jdbc</groupId>
+                <artifactId>ojdbc8</artifactId>
+                <version>${oracle-jdbc8.version}</version>
                 <scope>runtime</scope>
             </dependency>
 
@@ -434,9 +433,43 @@
             </dependency>
 
             <dependency>
+                <groupId>com.microsoft.sqlserver</groupId>
+                <artifactId>mssql-jdbc</artifactId>
+                <version>${mssql-jdbc.version}</version>
+                <scope>runtime</scope>
+            </dependency>
+
+            <dependency>
                 <groupId>org.postgresql</groupId>
                 <artifactId>postgresql</artifactId>
                 <version>${postgresql.version}</version>
+                <scope>runtime</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.shentong</groupId>
+                <artifactId>shentongjdbc</artifactId>
+                <version>${shentongjdbc.version}</version>
+                <scope>runtime</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>net.sf.ucanaccess</groupId>
+                <artifactId>ucanaccess</artifactId>
+                <version>${ucanaccess.version}</version>
+                <scope>runtime</scope>
+                <exclusions>
+                    <exclusion>
+                        <groupId>commons-logging</groupId>
+                        <artifactId>commons-logging</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>com.dm</groupId>
+                <artifactId>dmjdbc7</artifactId>
+                <version>${dmjdbc.version}</version>
                 <scope>runtime</scope>
             </dependency>
 
