@@ -1,0 +1,191 @@
+
+C:\Users\taorong\IdeaProjects>C:
+
+C:\Users\taorong\IdeaProjects>cd C:\Users\taorong\IdeaProjects 
+
+C:\Users\taorong\IdeaProjects>cd centit-commons 
+
+C:\Users\taorong\IdeaProjects\centit-commons>echo centit-commons 
+centit-commons
+
+C:\Users\taorong\IdeaProjects\centit-commons>git remote get-url --push centit 
+http://gitlab.centit.com/gitlab/ctm/framwork/utils/centit-commons.git
+
+C:\Users\taorong\IdeaProjects\centit-commons>git remote get-url --push focus 
+http://git.vemic.com/idp/lcdp/backend/locode/utils/centit-commons.git
+
+C:\Users\taorong\IdeaProjects\centit-commons>cd ..\centit-persistence 
+
+C:\Users\taorong\IdeaProjects\centit-persistence>echo centit-persistence 
+centit-persistence
+
+C:\Users\taorong\IdeaProjects\centit-persistence>git remote get-url --push centit 
+http://gitlab.centit.com/gitlab/ctm/framwork/utils/centit-persistence.git
+
+C:\Users\taorong\IdeaProjects\centit-persistence>git remote get-url --push focus 
+http://git.vemic.com/idp/lcdp/backend/locode/utils/centit-persistence.git
+
+C:\Users\taorong\IdeaProjects\centit-persistence>cd ..\centit-framework 
+
+C:\Users\taorong\IdeaProjects\centit-framework>echo centit-framework 
+centit-framework
+
+C:\Users\taorong\IdeaProjects\centit-framework>git remote get-url --push centit 
+http://gitlab.centit.com/gitlab/ctm/framwork/system/centit-framework.git
+
+C:\Users\taorong\IdeaProjects\centit-framework>git remote get-url --push focus 
+http://git.vemic.com/idp/lcdp/backend/locode/system/centit-framework.git
+
+C:\Users\taorong\IdeaProjects\centit-framework>cd ..\centit-oa-component 
+
+C:\Users\taorong\IdeaProjects\centit-oa-component>echo centit-oa-component 
+centit-oa-component
+
+C:\Users\taorong\IdeaProjects\centit-oa-component>git remote get-url --push centit 
+http://gitlab.centit.com/gitlab/ctm/framwork/modules/centit-oa-component.git
+
+C:\Users\taorong\IdeaProjects\centit-oa-component>git remote get-url --push focus 
+http://git.vemic.com/idp/lcdp/backend/locode/modules/centit-oa-component.git
+
+C:\Users\taorong\IdeaProjects\centit-oa-component>cd ..\centit-fileserver 
+
+C:\Users\taorong\IdeaProjects\centit-fileserver>echo centit-fileserver 
+centit-fileserver
+
+C:\Users\taorong\IdeaProjects\centit-fileserver>git remote get-url --push centit 
+http://gitlab.centit.com/gitlab/ctm/products/centit-fileserver.git
+
+C:\Users\taorong\IdeaProjects\centit-fileserver>git remote get-url --push focus 
+http://git.vemic.com/idp/lcdp/backend/locode/products/centit-fileserver.git
+
+C:\Users\taorong\IdeaProjects\centit-fileserver>cd ..\centit-framework-system 
+
+C:\Users\taorong\IdeaProjects\centit-framework-system>echo centit-framework-system 
+centit-framework-system
+
+C:\Users\taorong\IdeaProjects\centit-framework-system>git remote get-url --push centit 
+http://gitlab.centit.com/gitlab/ctm/framwork/system/centit-framework-system.git
+
+C:\Users\taorong\IdeaProjects\centit-framework-system>git remote get-url --push focus 
+http://git.vemic.com/idp/lcdp/backend/locode/system/centit-framework-system.git
+
+C:\Users\taorong\IdeaProjects\centit-framework-system>cd ..\centit-integration-platform 
+
+C:\Users\taorong\IdeaProjects\centit-integration-platform>echo centit-integration-platform 
+centit-integration-platform
+
+C:\Users\taorong\IdeaProjects\centit-integration-platform>git remote get-url --push centit 
+http://gitlab.centit.com/gitlab/ctm/framwork/system/centit-integration-platform.git
+
+C:\Users\taorong\IdeaProjects\centit-integration-platform>git remote get-url --push focus 
+http://git.vemic.com/idp/lcdp/backend/locode/system/centit-integration-platform.git
+
+C:\Users\taorong\IdeaProjects\centit-integration-platform>cd ..\centit-metadata 
+
+C:\Users\taorong\IdeaProjects\centit-metadata>echo centit-metadata 
+centit-metadata
+
+C:\Users\taorong\IdeaProjects\centit-metadata>git remote get-url --push centit 
+http://gitlab.centit.com/gitlab/ctm/framwork/modules/centit-metadata.git
+
+C:\Users\taorong\IdeaProjects\centit-metadata>git remote get-url --push focus 
+http://git.vemic.com/idp/lcdp/backend/locode/modules/centit-metadata.git
+
+C:\Users\taorong\IdeaProjects\centit-metadata>cd ..\centit-meta-form 
+
+C:\Users\taorong\IdeaProjects\centit-meta-form>echo centit-meta-form 
+centit-meta-form
+
+C:\Users\taorong\IdeaProjects\centit-meta-form>git remote get-url --push centit 
+http://gitlab.centit.com/gitlab/ctm/framwork/modules/centit-meta-form.git
+
+C:\Users\taorong\IdeaProjects\centit-meta-form>git remote get-url --push focus 
+http://git.vemic.com/idp/lcdp/backend/locode/modules/centit-meta-form.git
+
+C:\Users\taorong\IdeaProjects\centit-meta-form>cd ..\centit-dde 
+
+C:\Users\taorong\IdeaProjects\centit-dde>echo centit-dde 
+centit-dde
+
+C:\Users\taorong\IdeaProjects\centit-dde>git remote get-url --push centit 
+http://gitlab.centit.com/gitlab/ctm/framwork/modules/centit-dde.git
+
+C:\Users\taorong\IdeaProjects\centit-dde>git remote get-url --push focus 
+http://git.vemic.com/idp/lcdp/backend/locode/modules/centit-dde.git
+
+C:\Users\taorong\IdeaProjects\centit-dde>cd ..\centit-workflow 
+
+C:\Users\taorong\IdeaProjects\centit-workflow>echo centit-workflow 
+centit-workflow
+
+C:\Users\taorong\IdeaProjects\centit-workflow>git remote get-url --push centit 
+http://gitlab.centit.com/gitlab/ctm/framwork/modules/centit-workflow.git
+
+C:\Users\taorong\IdeaProjects\centit-workflow>git remote get-url --push focus 
+http://git.vemic.com/idp/lcdp/backend/locode/modules/centit-workflow.git
+
+C:\Users\taorong\IdeaProjects\centit-workflow>cd ..\centit-opt-log 
+
+C:\Users\taorong\IdeaProjects\centit-opt-log>echo centit-opt-log 
+centit-opt-log
+
+C:\Users\taorong\IdeaProjects\centit-opt-log>git remote get-url --push centit 
+http://gitlab.centit.com/gitlab/ctm/framwork/modules/centit-opt-log.git
+
+C:\Users\taorong\IdeaProjects\centit-opt-log>git remote get-url --push focus 
+http://git.vemic.com/idp/lcdp/backend/locode/modules/centit-opt-log.git
+
+C:\Users\taorong\IdeaProjects\centit-opt-log>cd ..\centit-opt-task 
+
+C:\Users\taorong\IdeaProjects\centit-opt-task>echo centit-opt-task 
+centit-opt-task
+
+C:\Users\taorong\IdeaProjects\centit-opt-task>git remote get-url --push centit 
+http://gitlab.centit.com/gitlab/ctm/framwork/modules/centit-opt-task.git
+
+C:\Users\taorong\IdeaProjects\centit-opt-task>git remote get-url --push focus 
+http://git.vemic.com/idp/lcdp/backend/locode/modules/centit-opt-task.git
+
+C:\Users\taorong\IdeaProjects\centit-opt-task>cd ..\centit-webim 
+
+C:\Users\taorong\IdeaProjects\centit-webim>echo centit-webim 
+centit-webim
+
+C:\Users\taorong\IdeaProjects\centit-webim>git remote get-url --push centit 
+http://gitlab.centit.com/gitlab/ctm/products/centit-webim.git
+
+C:\Users\taorong\IdeaProjects\centit-webim>git remote get-url --push focus 
+http://git.vemic.com/idp/lcdp/backend/locode/products/centit-webim.git
+
+C:\Users\taorong\IdeaProjects\centit-webim>cd ..\centit-workorder 
+
+C:\Users\taorong\IdeaProjects\centit-workorder>echo centit-workorder 
+centit-workorder
+
+C:\Users\taorong\IdeaProjects\centit-workorder>git remote get-url --push centit 
+http://gitlab.centit.com/gitlab/ctm/products/centit-workorder.git
+
+C:\Users\taorong\IdeaProjects\centit-workorder>git remote get-url --push focus 
+http://git.vemic.com/idp/lcdp/backend/locode/products/centit-workorder.git
+
+C:\Users\taorong\IdeaProjects\centit-workorder>cd ..\centit-dev-platform 
+
+C:\Users\taorong\IdeaProjects\centit-dev-platform>echo centit-dev-platform 
+centit-dev-platform
+
+C:\Users\taorong\IdeaProjects\centit-dev-platform>git remote get-url --push centit 
+http://gitlab.centit.com/gitlab/ctm/framwork/devplat/centit-dev-platform.git
+
+C:\Users\taorong\IdeaProjects\centit-dev-platform>git remote get-url --push focus 
+http://git.vemic.com/idp/lcdp/backend/locode/devplat/centit-dev-platform.git
+
+C:\Users\taorong\IdeaProjects\centit-dev-platform>cd ..\locode-focus-pulgins 
+
+C:\Users\taorong\IdeaProjects\locode-focus-pulgins>echo locode-focus-pulgins 
+locode-focus-pulgins
+
+C:\Users\taorong\IdeaProjects\locode-focus-pulgins>git remote get-url --push centit 
+http://gitlab.centit.com/gitlab/ctm/projects/locode-focus-pulgins.git
+
+C:\Users\taorong\IdeaProjects\locode-focus-pulgins>git remote get-url --push focus 
+http://git.vemic.com/idp/lcdp/backend/locode/locode-focus-pulgins.git
