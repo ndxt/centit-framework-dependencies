@@ -127,6 +127,7 @@
         <swagger.core.version>1.6.6</swagger.core.version>
         <springfox.swagger.version>2.9.2</springfox.swagger.version>
         <swagger.bootstrap.ui.version>1.9.6</swagger.bootstrap.ui.version>
+        <graalvm.js.version>20.3.13</graalvm.js.version>
         <!-- 国产加密算法版本 -->
         <gm.bouncycastl.version>1.71</gm.bouncycastl.version>
         <!-- 不推荐使用这个版本 -->
@@ -844,6 +845,18 @@
                 <artifactId>javase</artifactId>
                 <version>${zxing.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>org.graalvm.js</groupId>
+                <artifactId>js</artifactId>
+                <version>${graalvm.js.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.graalvm.js</groupId>
+                <artifactId>js-scriptengine</artifactId>
+                <version>${graalvm.js.version}</version>
+            </dependency>
+
             <!-- 国产加密算法 gm.bouncycastl.version -->
             <dependency>
                 <groupId>org.bouncycastle</groupId>
