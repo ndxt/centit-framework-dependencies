@@ -1,27 +1,27 @@
 #!/bin/sh
 
-cd /Users/codefan/projects/origin 
+cd /Users/codefan/projects/centit 
 
-cd  origin-commons
-git pull origin $1
+cd  centit-commons
+git pull centit $1
 
-cd ..\origin-persistence
-git pull origin $1
+cd ..\centit-persistence
+git pull centit $1
 
-cd ..\origin-framework
-git pull origin $1
+cd ..\centit-framework
+git pull centit $1
 
-cd ..\origin-fileserver
-git pull origin $1
+cd ..\centit-fileserver
+git pull centit $1
 
-cd ..\origin-framework-system
-git pull origin $1
+cd ..\centit-framework-system
+git pull centit $1
 
-cd ..\origin-integration-platform
-git pull origin $1
+cd ..\centit-integration-platform
+git pull centit $1
 
-cd ..\origin-opt-log
-git pull origin $1
+cd ..\centit-opt-log
+git pull centit $1
 
-cd ..\origin-dev-platform
-git pull origin $1
+cd ..\centit-dev-platform
+git pull centit $1
