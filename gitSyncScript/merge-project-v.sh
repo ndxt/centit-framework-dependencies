@@ -37,14 +37,14 @@ git pull origin $2
 git merge $1
 git push origin $2
 
-cd ../centit-framework-system
+cd ../centit-msgpusher
 git pull origin $1
 git checkout $2
 git pull origin $2
 git merge $1
 git push origin $2
 
-cd ../centit-integration-platform
+cd ../centit-framework-system
 git pull origin $1
 git checkout $2
 git pull origin $2
