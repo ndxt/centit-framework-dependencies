@@ -33,3 +33,42 @@
         <version>1.0[发行号]</version>
     </parent>
 ```
+
+# locode平台发布顺序
+
+## 基础包
+
+基础包必须首先发布，并且**必须**按顺序发布。
+
+* centit-framework-dependencies 包管理包
+* centit-commons
+* centit-persistence
+* centit-framework
+
+## 组件包 
+组件包第二批发布，**不需要**按顺序发布。
+
+* centit-oa-component
+* centit-msgpusher
+* centit-webim
+* centit-opt-log
+* centit-opt-task
+* centit-workorder
+* centit-fileserver
+* centit-metadata
+
+## 服务包
+
+首先发布框架服务：
+* centit-framework-system 
+然后发布三个核心服务：
+* centit-meta-form
+* centit-dde
+* centit-workflow
+最后发布locode平台服务 ：
+* centit-dev-platform
+
+## 最后发布焦点集成平台
+
+上面的所有服务发布完了发布焦点服务平台
+* locode-focus-pulgins
