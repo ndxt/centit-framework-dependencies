@@ -917,7 +917,7 @@
             <name>sonatype-snapshots</name>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>-->
-        <!--<repository>
+        <repository>
             <id>centit-releases</id>
             <name>centit-release</name>
             <url>http://nexus.centit.com:8081/nexus/content/repositories/centit-releases/</url>
@@ -926,8 +926,8 @@
             <id>centit-snapshots</id>
             <name>centit-snapshots</name>
             <url>http://nexus.centit.com:8081/nexus/content/repositories/centit-snapshots/</url>
-        </snapshotRepository>-->
-        <repository>
+        </snapshotRepository>
+        <!--<repository>
             <id>aplan-releases</id>
             <name>aplan releases</name>
             <url>http://maven.mic.com/nexus/content/repositories/focustech-aplan-releases/</url>
@@ -937,7 +937,7 @@
             <name>aplan snapshots</name>
             <url>http://maven.mic.com/nexus/content/repositories/base-snapshot/</url>
             <uniqueVersion>false</uniqueVersion>
-        </snapshotRepository>
+        </snapshotRepository>-->
     </distributionManagement>
     <build>
         <pluginManagement>

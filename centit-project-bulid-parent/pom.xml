@@ -10,12 +10,12 @@
     </parent>
 
     <artifactId>centit-project-bulid-parent</artifactId>
-    <name>centit common project</name>
+    <name>locode-common-pom</name>
     <version>${revision}</version>
     <packaging>pom</packaging>
 
     <properties>
-        <revision>5.4.240119</revision>
+        <revision>5.5-SNAPSHOT</revision>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
