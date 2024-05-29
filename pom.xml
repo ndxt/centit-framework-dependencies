@@ -6,7 +6,7 @@
 
     <groupId>com.centit.framework</groupId>
     <artifactId>centit-framework-dependencies</artifactId>
-    <version>5.4.2405</version>
+    <version>5.5.2405</version>
     <packaging>pom</packaging>
     <name>Centit Framework Dependencies</name>
     <description>Centit Framework Dependencies</description>
@@ -138,7 +138,7 @@
         <lombok.version>1.18.30</lombok.version>
         <checkerframework.version>2.10.0</checkerframework.version>
 
-        <elasticsearch.version>7.17.9</elasticsearch.version>
+        <elasticsearch.version>7.17.21</elasticsearch.version>
     </properties>
 
     <dependencyManagement>
@@ -923,6 +923,12 @@
             <dependency>
                 <groupId>org.elasticsearch.client</groupId>
                 <artifactId>elasticsearch-rest-high-level-client</artifactId>
+                <version>${elasticsearch.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>co.elastic.clients</groupId>
+                <artifactId>elasticsearch-java</artifactId>
                 <version>${elasticsearch.version}</version>
             </dependency>
         </dependencies>
