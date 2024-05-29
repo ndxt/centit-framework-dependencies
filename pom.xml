@@ -78,6 +78,7 @@
         <mssql-jdbc.version>12.4.2.jre8</mssql-jdbc.version>
         <shentongjdbc.version>4.0</shentongjdbc.version>
         <dmjdbc.version>1.7.0</dmjdbc.version>
+        <lz4.version>1.8.0</lz4.version>
         <clickhouse.version>0.6.0-patch5</clickhouse.version>
 
         <proxool.version>0.9.1</proxool.version>
@@ -509,6 +510,12 @@
                 <version>${h2.version}</version>
                 <scope>runtime</scope>
             </dependency>
+            <!-- clickhouse 需要依赖这个解压，奇怪的时在CentOs上安装了LZ4包就不需要这个jar了 -->
+            <dependency>
+                <groupId>org.lz4</groupId>
+                <artifactId>lz4-java</artifactId>
+                <version>${lz4.version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>com.clickhouse</groupId>
@@ -905,6 +912,12 @@
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
                 <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.elasticsearch.client</groupId>
+                <artifactId>elasticsearch-rest-client</artifactId>
+                <version>${elasticsearch.version}</version>
             </dependency>
 
             <dependency>
