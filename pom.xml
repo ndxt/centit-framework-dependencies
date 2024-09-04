@@ -121,7 +121,7 @@
         <tika.version>1.28.4</tika.version>
         <pdfbox.version>2.0.24</pdfbox.version>
         <docx4j.JAXB.version>8.3.8</docx4j.JAXB.version>
-        <xdocreport.version>2.0.4</xdocreport.version>
+        <xdocreport.version>2.0.6</xdocreport.version>
         <jxls.version>2.12.0</jxls.version>
         <javafaker.version>1.0.2</javafaker.version>
         <junit.version>4.13.1</junit.version>
