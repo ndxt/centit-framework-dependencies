@@ -6,7 +6,7 @@
 
     <groupId>com.centit.framework</groupId>
     <artifactId>centit-framework-dependencies</artifactId>
-    <version>5.5.2405</version>
+    <version>5.5.2410</version>
     <packaging>pom</packaging>
     <name>Centit Framework Dependencies</name>
     <description>Centit Framework Dependencies</description>
@@ -79,6 +79,7 @@
         <shentongjdbc.version>4.0</shentongjdbc.version>
         <dmjdbc.version>1.7.0</dmjdbc.version>
         <lz4.version>1.8.0</lz4.version>
+        <sqlite.version>3.46.1.3</sqlite.version>
         <clickhouse.version>0.6.0-patch5</clickhouse.version>
 
         <proxool.version>0.9.1</proxool.version>
@@ -454,6 +455,12 @@
                 <artifactId>ojdbc8</artifactId>
                 <version>${oracle-jdbc8.version}</version>
                 <scope>runtime</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.xerial</groupId>
+                <artifactId>sqlite-jdbc</artifactId>
+                <version>${sqlite.version}</version>
             </dependency>
 
             <dependency>
