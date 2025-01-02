@@ -5,7 +5,7 @@
     <parent>
         <artifactId>centit-framework-dependencies</artifactId>
         <groupId>com.centit.framework</groupId>
-        <version>5.3.2302</version>
+        <version>5.5.2501</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>framework-release-dependencies</artifactId>
