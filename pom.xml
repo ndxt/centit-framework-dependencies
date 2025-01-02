@@ -6,7 +6,7 @@
 
     <groupId>com.centit.framework</groupId>
     <artifactId>centit-framework-dependencies</artifactId>
-    <version>5.5.2410</version>
+    <version>5.5.2501</version>
     <packaging>pom</packaging>
     <name>Centit Framework Dependencies</name>
     <description>Centit Framework Dependencies</description>
@@ -96,7 +96,7 @@
         <httpcomponents.version>4.5.13</httpcomponents.version>
 
         <pinyin4j.version>2.5.1</pinyin4j.version>
-        <apache.poi.version>5.2.0</apache.poi.version>
+        <apache.poi.version>5.2.5</apache.poi.version>
         <itextpdf.version>5.5.13.3</itextpdf.version>
         <jacob.version>1.18</jacob.version>
 
