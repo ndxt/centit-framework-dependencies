@@ -111,6 +111,7 @@
         <commons-codec.version>1.15</commons-codec.version>
         <commons-collections4.version>4.4</commons-collections4.version>
         <commons-csv.version>1.9.0</commons-csv.version>
+        <commons-compress.version>1.26.2</commons-compress.version>
 
         <javax.validation.version>2.0.1.Final</javax.validation.version>
         <javassist.version>3.29.0-GA</javassist.version>
@@ -553,6 +554,12 @@
                 <groupId>org.apache.tika</groupId>
                 <artifactId>tika-parsers</artifactId>
                 <version>${tika.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.apache.poi</groupId>
+                        <artifactId>*</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
 
             <dependency>
@@ -711,6 +718,11 @@
                 <version>${commons-pool2.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-compress</artifactId>
+                <version>${commons-compress.version}</version>
+            </dependency>
             <!-- 获取汉字首字母的类库  -->
              <dependency>
                 <groupId>com.belerweb</groupId>
