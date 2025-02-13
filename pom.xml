@@ -119,7 +119,7 @@
         <websocket-api.version>1.1</websocket-api.version>
         <quartz.version>2.3.2</quartz.version>
 
-        <tika.version>1.28.4</tika.version>
+        <tika.version>2.9.3</tika.version>
         <pdfbox.version>2.0.24</pdfbox.version>
         <docx4j.JAXB.version>8.3.8</docx4j.JAXB.version>
         <xdocreport.version>2.0.6</xdocreport.version>
@@ -551,7 +551,19 @@
 
             <dependency>
                 <groupId>org.apache.tika</groupId>
-                <artifactId>tika-parsers</artifactId>
+                <artifactId>tika-core</artifactId>
+                <version>${tika.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.tika</groupId>
+                <artifactId>tika-parsers-standard-package</artifactId>
+                <version>${tika.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.tika</groupId>
+                <artifactId>tika-parser-scientific-package</artifactId>
                 <version>${tika.version}</version>
             </dependency>
 
