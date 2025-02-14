@@ -6,7 +6,7 @@
 
     <groupId>com.centit.framework</groupId>
     <artifactId>centit-framework-dependencies</artifactId>
-    <version>5.5.250102</version>
+    <version>5.5.2502</version>
     <packaging>pom</packaging>
     <name>Centit Framework Dependencies</name>
     <description>Centit Framework Dependencies</description>
@@ -121,7 +121,7 @@
         <quartz.version>2.3.2</quartz.version>
 
         <tika.version>2.9.3</tika.version>
-        <pdfbox.version>2.0.24</pdfbox.version>
+        <pdfbox.version>2.0.33</pdfbox.version>
         <docx4j.JAXB.version>8.3.8</docx4j.JAXB.version>
         <xdocreport.version>2.0.6</xdocreport.version>
         <jxls.version>2.12.0</jxls.version>
