@@ -122,6 +122,7 @@
 
         <tika.version>2.9.3</tika.version>
         <pdfbox.version>2.0.33</pdfbox.version>
+        <ofdrw.version>2.2.13</ofdrw.version>
         <docx4j.JAXB.version>8.3.8</docx4j.JAXB.version>
         <xdocreport.version>2.0.6</xdocreport.version>
         <jxls.version>2.12.0</jxls.version>
@@ -578,6 +579,18 @@
                 <groupId>org.apache.pdfbox</groupId>
                 <artifactId>pdfbox</artifactId>
                 <version>${pdfbox.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.ofdrw</groupId>
+                <artifactId>ofdrw-core</artifactId>
+                <version>${ofdrw.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.ofdrw</groupId>
+                <artifactId>ofdrw-reader</artifactId>
+                <version>${ofdrw.version}</version>
             </dependency>
 
             <dependency>
