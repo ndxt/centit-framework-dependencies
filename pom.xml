@@ -101,6 +101,7 @@
         <commons-codec.version>1.16.0</commons-codec.version>
         <commons-collections4.version>4.4</commons-collections4.version>
         <commons-csv.version>1.10.0</commons-csv.version>
+        <commons-compress.version>1.26.2</commons-compress.version>
 
         <validation-api.version>3.0.2</validation-api.version>
         <javassist.version>3.29.2-GA</javassist.version>
@@ -111,6 +112,7 @@
 
         <tika.version>2.9.0</tika.version>
         <pdfbox.version>3.0.0</pdfbox.version>
+        <ofdrw.version>2.2.13</ofdrw.version>
         <docx4j.JAXB.version>8.3.9</docx4j.JAXB.version>
         <xdocreport.version>2.0.4</xdocreport.version>
         <jxls.version>2.13.0</jxls.version>
@@ -504,6 +506,18 @@
             </dependency>
 
             <dependency>
+                <groupId>org.ofdrw</groupId>
+                <artifactId>ofdrw-core</artifactId>
+                <version>${ofdrw.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.ofdrw</groupId>
+                <artifactId>ofdrw-reader</artifactId>
+                <version>${ofdrw.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>org.docx4j</groupId>
                 <artifactId>docx4j-JAXB-Internal</artifactId>
                 <version>${docx4j.JAXB.version}</version>
@@ -651,6 +665,12 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-pool2</artifactId>
                 <version>${commons-pool2.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-compress</artifactId>
+                <version>${commons-compress.version}</version>
             </dependency>
 
             <!-- 获取汉字首字母的类库  -->
