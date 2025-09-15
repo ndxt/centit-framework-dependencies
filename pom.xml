@@ -126,6 +126,7 @@
         <docx4j.JAXB.version>8.3.8</docx4j.JAXB.version>
         <xdocreport.version>2.0.6</xdocreport.version>
         <jxls.version>2.12.0</jxls.version>
+        <jxls.fixbug.version>2.12.1</jxls.fixbug.version>
         <javafaker.version>1.0.2</javafaker.version>
         <junit.version>4.13.1</junit.version>
 
@@ -637,7 +638,7 @@
             <dependency>
                 <groupId>org.jxls</groupId>
                 <artifactId>jxls-poi</artifactId>
-                <version>${jxls.version}</version>
+                <version>${jxls.fixbug.version}</version>
             </dependency>
 
             <!-- OTHERS -->
