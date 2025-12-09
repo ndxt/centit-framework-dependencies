@@ -101,7 +101,7 @@
         <commons-codec.version>1.16.0</commons-codec.version>
         <commons-collections4.version>4.4</commons-collections4.version>
         <commons-csv.version>1.10.0</commons-csv.version>
-        <commons-compress.version>1.26.2</commons-compress.version>
+        <commons-compress.version>1.27.1</commons-compress.version>
 
         <validation-api.version>3.0.2</validation-api.version>
         <javassist.version>3.29.2-GA</javassist.version>
