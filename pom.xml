@@ -51,7 +51,7 @@
 
         <hibernate.validator.version>8.0.1.Final</hibernate.validator.version>
         <flyway.version>9.22.2</flyway.version>
-        <persistence-api.version>6.1.0</persistence-api.version>
+        <persistence-api.version>3.2.0</persistence-api.version>
         <HikariCP.version>7.0.2</HikariCP.version>
         <h2.version>2.2.224</h2.version>
         <lettuce.version>6.4.2.RELEASE</lettuce.version>
@@ -99,7 +99,7 @@
         <validation-api.version>3.0.2</validation-api.version>
         <javassist.version>3.29.2-GA</javassist.version>
         <jstl.version>1.2</jstl.version>
-        <servlet-api.version>6.0.0</servlet-api.version>
+        <servlet-api.version>6.1.0</servlet-api.version>
         <websocket-api.version>2.1.1</websocket-api.version>
         <quartz.version>2.5.2</quartz.version>
 
