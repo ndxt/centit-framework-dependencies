@@ -83,6 +83,7 @@
         <pinyin4j.version>2.5.1</pinyin4j.version>
         <apache.poi.version>5.5.1</apache.poi.version>
         <itextpdf.version>5.5.13.4</itextpdf.version>
+        <itextasian.version>5.2.0</itextasian.version>
 
         <commons-lang3.version>3.20.0</commons-lang3.version>
         <commons-math3.version>3.6.1</commons-math3.version>
@@ -104,9 +105,9 @@
         <quartz.version>2.5.2</quartz.version>
 
         <tika.version>3.2.3</tika.version>
-        <pdfbox.version>3.0.0</pdfbox.version>
+        <pdfbox.version>3.0.6</pdfbox.version>
         <ofdrw.version>2.2.13</ofdrw.version>
-        <docx4j.JAXB.version>8.3.9</docx4j.JAXB.version>
+        <docx4j.JAXB.version>8.3.15</docx4j.JAXB.version>
         <xdocreport.version>2.1.0</xdocreport.version>
         <xchart.version>3.8.8</xchart.version>
         <jxls.version>2.14.0</jxls.version>
@@ -404,6 +405,12 @@
             </dependency>
 
             <dependency>
+                <groupId>org.apache.pdfbox</groupId>
+                <artifactId>fontbox</artifactId>
+                <version>${pdfbox.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>org.ofdrw</groupId>
                 <artifactId>ofdrw-core</artifactId>
                 <version>${ofdrw.version}</version>
@@ -638,6 +645,12 @@
                 <groupId>com.itextpdf</groupId>
                 <artifactId>itextpdf</artifactId>
                 <version>${itextpdf.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.itextpdf</groupId>
+                <artifactId>itext-asian</artifactId>
+                <version>${itextasian.version}</version>
             </dependency>
 
             <!-- provided and system -->
