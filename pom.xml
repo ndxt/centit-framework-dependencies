@@ -108,7 +108,7 @@
         <pdfbox.version>3.0.6</pdfbox.version>
         <ofdrw.version>2.2.13</ofdrw.version>
         <docx4j.JAXB.version>8.3.15</docx4j.JAXB.version>
-        <xdocreport.version>2.1.0</xdocreport.version>
+        <xdocreport.version>2.2.0</xdocreport.version>
         <xchart.version>3.8.8</xchart.version>
         <jxls.version>2.14.0</jxls.version>
         <javafaker.version>1.0.2</javafaker.version>
