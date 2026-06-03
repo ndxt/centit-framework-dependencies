@@ -82,7 +82,7 @@
 
         <pinyin4j.version>2.5.1</pinyin4j.version>
         <apache.poi.version>5.5.1</apache.poi.version>
-        <itextpdf.version>5.5.13.4</itextpdf.version>
+        <itextpdf.version>5.5.13.5</itextpdf.version>
         <itextasian.version>5.2.0</itextasian.version>
 
         <commons-lang3.version>3.20.0</commons-lang3.version>
